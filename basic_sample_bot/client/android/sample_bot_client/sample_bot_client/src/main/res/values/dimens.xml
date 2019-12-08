@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict">
+<!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="toolbar_placeholder_height">56sp</dimen>
+
+    <dimen name="bottomsheet_list_item_height">48sp</dimen>
+    <dimen name="bottomsheet_horizontal_margin">10sp</dimen>
+    <dimen name="bottomsheet_vertical_margin">8sp</dimen>
+
+    <dimen name="md_bottom_sheet_separator_top_margin">7sp</dimen>
+    <item name="footerButtonView" type="id"/>
+</resources>

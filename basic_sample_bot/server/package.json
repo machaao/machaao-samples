@@ -1,0 +1,23 @@
+{
+  "name": "machaao-demo-bot",
+  "version": "1.0.0",
+  "description": "Machaao Platform QuickStart Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "machaao",
+    "bot",
+    "quickstart"
+  ],
+  "author": "Harshal Dhir <harshal@machaao.com>",
+  "license": "MIT",
+  "homepage": "https://ganglia-dev.machaao.com/api-docs",
+  "dependencies": {
+    "request": "^2.72.0",
+    "express": "*",
+    "body-parser": "*",
+    "jsonwebtoken": "^8.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict">
+    <color name="colorPrimary">#000</color>
+    <!--<color name="colorPrimaryGreen">#008000</color>-->
+    <!--<color name="colorPrimaryDarkGreen">#228b22</color>-->
+
+    <!--<color name="colorPrimaryDark">#e51b00</color>-->
+    <color name="colorAccent">#000</color>
+    <!--<color name="colorQuickReply">#000</color>-->
+
+    <color name="colorButtonNormal">#2196f3</color>
+    <color name="colorOutgoingMessage">#000</color>
+
+    <!--<color name="colorBackground">#F4F4F4</color>-->
+    <color name="colorBackground">#D3D3D3</color>
+
+    <color name="headerBackground">#000</color>
+
+
+    <!--<color name="primaryColor">#f4462e</color>-->
+    <color name="colorPrimaryLight">#2196f3</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorPrimaryText">#ffffff</color>
+</resources>

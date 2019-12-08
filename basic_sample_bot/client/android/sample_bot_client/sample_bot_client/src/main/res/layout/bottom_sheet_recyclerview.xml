@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottomsheet_list_item_height"
+    android:gravity="center_vertical">
+
+    <!--<android.support.v7.widget.AppCompatImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="@dimen/bottomsheet_horizontal_margin"-->
+        <!--android:layout_marginLeft="@dimen/bottomsheet_horizontal_margin"-->
+        <!--android:layout_marginRight="@dimen/bottomsheet_horizontal_margin"-->
+        <!--android:layout_marginStart="@dimen/bottomsheet_horizontal_margin"-->
+        <!--app:srcCompat="@drawable/" />-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/bottomsheet_horizontal_margin"
+        android:text="@string/bottom_sheet_add_credits_title"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/title"
+        android:textAllCaps="true"
+        android:layout_below="@id/title"
+        android:text="@string/bottom_sheet_add_credits_sub_title"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="@string/buy"
+        android:id="@+id/buy"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="true"/>
+
+
+</RelativeLayout>

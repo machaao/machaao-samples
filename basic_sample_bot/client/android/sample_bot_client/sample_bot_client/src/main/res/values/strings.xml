@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict">
+    <!--<string name="app_name">GangliaService</string>-->
+    <string name="default_notification_channel_id" translatable="false">ganglia_messaging_pipe</string>
+    <string name="enter_a_message">Type a Message &#8230;</string>
+    <string name="powered_by_giphy">Powered by Giphy</string>
+    <string name="default_notification_channel_name">Messages</string>
+    <string name="default_notification_channel_description">Notification Settings</string>
+    <string name="get_started">My name is Ron - Your Boring Buddy.\nMessage me when you get bored :)</string>
+    <string name="clear_conversation">Clear History</string>
+    <string name="earn_credits">Earn Credits</string>
+    <string name="how_it_works">How it Works?</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="add_credits">Add Credits</string>
+    <string name="hello">Hello</string>
+    <string name="terms_of_use">Terms Of Use</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="refund_policy">Refund Policy</string>
+    <string name="notification_settings">Notification Settings</string>
+
+    <string name="how_to_buy">How to Buy?</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="menu_title">Ganglia for Cricket</string>
+    <string name="ganglia_status_connecting">Connecting&#8230;</string>
+    <string name="ganglia_status_ready">Ready</string>
+    <string name="ganglia_status_sending">Sending&#8230;</string>
+    <string name="ganglia_sync">Thinking&#8230;</string>
+    <string name="pacman_tip">Tap me to say hi anytime :)</string>
+
+    <string name="bottom_sheet_option_camera">Use Camera</string>
+    <string name="bottom_sheet_option_gallery">Upload from Gallery</string>
+    <string name="bottom_sheet_option_heading">Add Photo</string>
+    <string name="bottom_sheet_option_remove_photo">Remove Photo</string>
+
+    <string name="bottom_sheet_add_credits">Add</string>
+
+    <string name="buy">Add</string>
+    <string name="bottom_sheet_add_credits_title">50 Credits</string>
+    <string name="bottom_sheet_add_credits_sub_title">5 INR</string>
+
+    <string name="logo_url">https://d14nx13ylsx7x8.cloudfront.net/comfy/cms/files/files/000/000/609/original/neophyte.png</string>
+    <string name="web_client_id">558848412461-d6lcpecnbep4jhnljvibn606bh1nasij.apps.googleusercontent.com</string>
+</resources>
