@@ -14,11 +14,7 @@ repositories {
     maven { url 'https://maven.fabric.io/public' }
     maven { url 'https://dl.bintray.com/machaao/maven' }
     maven {
-        url "s3://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
-        credentials(AwsCredentials) {
-            accessKey AWS_ACCESS_KEY
-            secretKey AWS_SECRET_KEY
-        }
+        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
     }
     mavenLocal()
     jcenter()
