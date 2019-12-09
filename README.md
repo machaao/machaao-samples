@@ -32,8 +32,11 @@ Add Gradle Dependency
 
 Modify Manifest
 
-<meta-data android:name="com.machaao.android.sdk.token"
+
+     <meta-data android:name="com.machaao.android.sdk.token"
     android:value="5be86060-1982-11ea-a5b2-2b73297f80e5" />
+        
+
 
     <!-- Replace with your bot token assigned by MACHAAO Inc -->
 
