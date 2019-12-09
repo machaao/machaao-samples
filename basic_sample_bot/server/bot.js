@@ -194,7 +194,7 @@ function sendGenericMessage(userID) {
 
 function callSendAPI(messageData) {
   request({
-    uri: 'https://ganglia-dev.machaao.com/v1/messages/broadcast',
+    uri: 'https://ganglia-dev.machaao.com/v1/messages/send',
     headers: {
       "api_token": "5be86060-1982-11ea-a5b2-2b73297f80e5", // YOUR API KEY (connect@machaao.com)
       "Content-Type": "application/json"
