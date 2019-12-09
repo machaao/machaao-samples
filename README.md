@@ -30,6 +30,13 @@ Add Gradle Dependency
             transitive = true
         }
 
+Modify Manifest
+
+<meta-data android:name="com.machaao.android.sdk.token"
+    android:value="5be86060-1982-11ea-a5b2-2b73297f80e5" />
+
+    <!-- Replace with your bot token assigned by MACHAAO Inc -->
+
 ## Build your client app
 If everything works fine you should be able to build your app and run your bot inside your own android app.
 
