@@ -33,7 +33,7 @@
         <!--<meta-data android:name="com.machaao.sdk.token" android:value="dfa79f70-e44d-11e9-bec1-25f7477dfdc0" />-->
 
         <meta-data android:name="com.machaao.android.sdk.token"
-            android:value="5be86060-1982-11ea-a5b2-2b73297f80e5" />
+            android:value="<!-- YOUR BOT TOKEN (contact@machaao.com) -->" />
 
 
 
