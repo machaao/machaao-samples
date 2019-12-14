@@ -104,7 +104,7 @@ dependencies {
     })
 
 //    implementation project(':machaao-sdk')
-    implementation('com.machaao.android:machaao-sdk:0.1.150-SNAPSHOT') {
+    implementation('com.machaao.android:machaao-sdk:0.1.152-SNAPSHOT') {
         transitive = true
     }
 
