@@ -43,6 +43,7 @@ Intialize SDK
     
 
 Add MyBots Grid (For Publisher Apps)
+
      <fragment
         android:name="com.machaao.android.sdk.fragments.MyBotFragment"
         android:id="@+id/botGrid"
