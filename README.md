@@ -26,7 +26,7 @@ Include Machaao Maven Public Repository
 Add Gradle Dependency
 
 
-     implementation('com.machaao.android:machaao-sdk:0.1.150-SNAPSHOT') {
+     implementation('com.machaao.android:machaao-sdk:0.1.161-SNAPSHOT') {
             transitive = true
         }
 
@@ -35,13 +35,23 @@ Modify Manifest
 
      <meta-data android:name="com.machaao.android.sdk.token"
     android:value="<!-- Replace with your bot token assigned by MACHAAO Inc -->" />
-        
-
-
     
 
-## Build your client app
-If everything works fine you should be able to build your app and run your bot inside your own android app.
+Intialize SDK
+
+     Machaao.initialize(this);
+    
+
+Add MyBots Grid (For Publisher Apps)
+     <fragment
+        android:name="com.machaao.android.sdk.fragments.MyBotFragment"
+        android:id="@+id/botGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+
+## integrate our single bot or multi bot app
+If everything works fine you should be able to build your app and run your bot(s) inside your own android app.
 
 ## Contact us for Advanced Usage
 Please feel free to contact us for advanced support and instructions.
