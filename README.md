@@ -42,7 +42,7 @@ Intialize SDK
      Machaao.initialize(this);
     
 
-Add MyBots Grid (For Publisher Apps)
+Add MyBots Grid (For App Partners Only)
 
      <fragment
         android:name="com.machaao.android.sdk.fragments.MyBotFragment"
