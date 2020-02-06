@@ -29,12 +29,12 @@ Include Machaao Maven Public Repository
             transitive = true
         }
 
-## Modify Manifest
+## Modify Manifest (Add Token)
 
      <meta-data android:name="com.machaao.android.sdk.token"
-    android:value="<!-- Replace with your bot token assigned by MACHAAO Inc (connect@machaao.com) -->" />
+    android:value="<!-- Replace with your bot / api token assigned by MACHAAO Inc (connect@machaao.com) -->" />
     
-## Add SingleBotActivity Reference to Manifest (Single Bot Token)
+## Add SingleBotActivity Reference to Manifest (Bot Developers)
 
       <activity android:name="com.machaao.android.sdk.activities.SingleBotActivity"
             android:logo="@mipmap/ic_launcher"
@@ -68,6 +68,11 @@ Include Machaao Maven Public Repository
         android:layout_width="match_parent"
         android:layout_height="match_parent" />    
 
+## Modify Manifest [For App Partners]
+
+     <meta-data android:name="com.machaao.android.sdk.multi"
+    android:value="true" />
+    
 If everything works fine you should be able to build your conversational app and run your bot(s) inside your own android / web app (iOS Coming Soon).
 
 ## Contact us for Advanced Usage
