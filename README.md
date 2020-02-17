@@ -25,7 +25,7 @@ Include Machaao Maven Public Repository
 
 ## Add Gradle Dependency
 
-     implementation('com.machaao.android:machaao-sdk:0.1.173-SNAPSHOT') {
+     implementation('com.machaao.android:machaao-sdk:0.1.185-SNAPSHOT') {
             transitive = true
         }
 
@@ -67,11 +67,6 @@ Include Machaao Maven Public Repository
         android:id="@+id/botGrid"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />    
-
-## Modify Manifest [For App Partners]
-
-     <meta-data android:name="com.machaao.android.sdk.multi"
-    android:value="true" />
     
 If everything works fine you should be able to build your conversational app and run your bot(s) inside your own android / web app (iOS Coming Soon).
 
