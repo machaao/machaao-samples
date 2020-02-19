@@ -25,7 +25,7 @@ Include Machaao Maven Public Repository
 
 ## Add Gradle Dependency
 
-     implementation('com.machaao.android:machaao-sdk:0.1.185-SNAPSHOT') {
+     implementation('com.machaao.android:machaao-sdk:0.1.188-SNAPSHOT') {
             transitive = true
         }
 
@@ -66,10 +66,33 @@ Include Machaao Maven Public Repository
         android:name="com.machaao.android.sdk.fragments.MyBotFragment"
         android:id="@+id/botGrid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />    
+        android:layout_height="wrap_content" />    
     
 If everything works fine you should be able to build your conversational app and run your bot(s) inside your own android / web app (iOS Coming Soon).
+## --
+# Integrate Machaao Webchat SDK 🤖
+## --
 
-## Contact us for Advanced Usage
+## Instructions
+
+**Step_1**: Below is a sample script you need to paste into your website to install webchat for your Machaao bot.
+
+```<script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript" id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="botkey" src="https://web-client-dev.machaao.com/static/js/script.js"></script>```
+
+**Step_2**: You will need to update variables above as shown below:
+
+`themecolor` : Put the desired color in hex or rgb format which will be applied to the chat header background, buttons and message bubble background.
+
+`botname` : The name of the bot that will appear on the chat header
+
+`avatarurl` : The url of the image that is shown on bot launcher icon.
+
+`chathost` : Url where the static assets for the webchat are hosted.
+
+`machaaokey` : The API token for your bot proivded by Machaao
+
+## Contact us for Advanced Usage / Implementation Support / Bugs
 Please feel free to contact us for advanced support and instructions.
 Email us at connect@machaao.com to get you started.
+
+
