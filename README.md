@@ -1,11 +1,13 @@
-## Machaao Samples
+# Machaao Mini Apps Platform - Integration Documentation via Android + Webchat SDKs 🤖
 
-The following code contains sample bots along with their server and android client components using MACHAAO Conversational Apps Platform
+Make your messenger bot run in your own android / web.
+
+The following code contains sample mini apps along with their server and android client components using MACHAAO Conversational Platform
 
 ## API Documentation
-Review the Chatbot Messaging Platform API located at https://ganglia-dev.machaao.com/api-docs
+Review the Mini Apps Platform API located at https://ganglia-dev.machaao.com/api-docs
 
-## Current Sample Bot(s)
+## Current Sample Mini App
 **basic_sample_bot** : This is an echo bot which shows the basic usage of the MACHAAO send message API, it contains the following code base to get you started
 
 The above repository contains two assets
@@ -54,7 +56,7 @@ Include Machaao Maven Public Repository
 
      Machaao.initialize(this);
     
-## Integrate Your Bot SDK [For Bot Developers / Partners]
+## Launch Your Bot / Mini App via our SDK [For Bot Developers / Partners]
 
       Intent intent = new Intent(this, SingleBotActivity.class);
       intent.putExtra("botToken", botToken);
@@ -69,11 +71,8 @@ Include Machaao Maven Public Repository
         android:layout_height="wrap_content" />    
     
 If everything works fine you should be able to build your conversational app and run your bot(s) inside your own android / web app (iOS Coming Soon).
-## --
-# Integrate Machaao Webchat SDK 🤖
-## --
 
-## Instructions
+## Web SDK Instructions
 
 **Step_1**: Below is a sample script you need to paste into your website to install webchat for your Machaao bot.
 
