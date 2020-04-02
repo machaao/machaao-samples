@@ -27,11 +27,11 @@ Include Machaao Maven Public Repository
 
 ## Add Gradle Dependency
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.1.795-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.795-SNAPSHOT') {
             transitive = true
         }
         
-     releaseImplementation('com.machaao.android:machaao-sdk:0.1.795-SNAPSHOT') {
+     releaseImplementation('com.machaao.android:machaao-sdk:0.795-SNAPSHOT') {
             transitive = true
         }
 
