@@ -27,7 +27,11 @@ Include Machaao Maven Public Repository
 
 ## Add Gradle Dependency
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.1.221-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.1.795-SNAPSHOT') {
+            transitive = true
+        }
+        
+     releaseImplementation('com.machaao.android:machaao-sdk:0.1.795-SNAPSHOT') {
             transitive = true
         }
 
@@ -62,13 +66,19 @@ Include Machaao Maven Public Repository
       intent.putExtra("botToken", botToken);
       startActivity(intent);
 
-## Add MyBots Grid Component / Fragment [For App / Publisher Partners]
+## Add MyBots Grid or List Component / Fragment [For App / Publisher Partners]
 
-     <fragment
-        android:name="com.machaao.android.sdk.fragments.MyBotFragment"
+     <!--        <fragment-->
+<!--            android:name="com.machaao.android.sdk.fragments.MyBotListFragment"-->
+<!--            android:id="@+id/botList"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+
+    <fragment
+        android:name="com.machaao.android.sdk.fragments.MyBotGridFragment"
         android:id="@+id/botGrid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />    
+        android:layout_height="wrap_content" />   
     
 If everything works fine you should be able to build your conversational app and run your bot(s) inside your own android / web app (iOS Coming Soon).
 
