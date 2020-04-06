@@ -27,11 +27,11 @@ Include Machaao Maven Public Repository
 
 ## Add Gradle Dependency
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.795-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.802-SNAPSHOT') {
             transitive = true
         }
         
-     releaseImplementation('com.machaao.android:machaao-sdk:0.795-SNAPSHOT') {
+     releaseImplementation('com.machaao.android:machaao-sdk:0.802') {
             transitive = true
         }
 
@@ -67,12 +67,11 @@ Include Machaao Maven Public Repository
       startActivity(intent);
 
 ## Add MyBots Grid or List Component / Fragment [For App / Publisher Partners]
-
-     <!--        <fragment-->
-<!--            android:name="com.machaao.android.sdk.fragments.MyBotListFragment"-->
-<!--            android:id="@+id/botList"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
+    <fragment
+        android:name="com.machaao.android.sdk.fragments.MyBotListFragment"
+        android:id="@+id/botList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <fragment
         android:name="com.machaao.android.sdk.fragments.MyBotGridFragment"
