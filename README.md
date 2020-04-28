@@ -1,6 +1,6 @@
 # Machaao Mini Apps Platform - Integration Documentation via Android + Webchat SDKs 🤖
 
-Make your messenger bot run in your own android / web.
+Make your chatbot run in your own android / web.
 
 The following code contains sample mini apps along with their server and android client components using MACHAAO Conversational Platform
 
