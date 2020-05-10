@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a marketplace for messaging apps
+MessengerX.io is a marketplace for personalized messaging apps
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -22,7 +22,7 @@ without any new installation required on the user side.
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
-   Ganesha - A Daily Horoscope chatbot powered by GaneshaSpeaks.com
+   Ganesha - Personalized Horoscope chatbot powered by GaneshaSpeaks.com
 
 .. include:: ./ReadMe.rst
 
