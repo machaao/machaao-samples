@@ -1,6 +1,6 @@
-# Machaao Mini Apps Platform - Integration Documentation via Android + Webchat SDKs 🤖
+# Machaao Mini Messaging Apps Platform - Documentation for Android + Web SDKs 🤖
 
-Make your chatbot run in your own android / web.
+Make your chatbot run in your own android / web / messenger (coming soon).
 
 The following code contains sample mini apps along with their server and android client components using MACHAAO Conversational Platform
 
@@ -27,11 +27,11 @@ Include Machaao Maven Public Repository
 
 ## Add Gradle Dependency
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.802-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.807-SNAPSHOT') {
             transitive = true
         }
         
-     releaseImplementation('com.machaao.android:machaao-sdk:0.802') {
+     releaseImplementation('com.machaao.android:machaao-sdk:0.807') {
             transitive = true
         }
 
