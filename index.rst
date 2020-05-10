@@ -2,7 +2,7 @@
    :maxdepth: 2
    :caption: Contents:
 
-Introducing MessengerX
+What is MessengerX?
 =============================================================================
 MessengerX.io is one of it's kind marketplace for consumer based chatbots (Available Now on Android)
 
