@@ -1,27 +1,28 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a consumer marketplace for conversational apps
+MessengerX.io is a marketplace for messaging apps
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
    :align: center
    :alt: MessengerX.io - Bots everywhere!
 
-   MessengerX.io - Bots Everywhere!
+   MessengerX.io - Mini Apps Messaging Platform
 
 Our platform allows developers to expose their chatbots to millions of devices
 on play store and beyond.
 
-What are ChatBots?
+What are Messaging Apps?
 =============================================================================
-Chat Bots are light weight conversational programs that can be ran without any new installation required on the user side.
+Messaging Apps or Chat Bots are light weight programs that can be ran inside an existing app
+without any new installation required on the user side.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
    :scale: 15 %
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
-   Ganesha - Daily Horoscopes powered by GaneshaSpeaks.com
+   Ganesha - A Daily Horoscope chatbot powered by GaneshaSpeaks.com
 
 .. include:: ./ReadMe.rst
 
