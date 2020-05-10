@@ -1,11 +1,10 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a global marketplace for conversational apps (Available Now on Android)
+MessengerX.io is a global marketplace for conversational apps
+Our platform allows developers to expose their chatbots to millions of devices
+on play store and beyond.
 
-Our platform allows developers to expose their chatbots to millions of android devices
-on play store.
-
-What are Chat Bots?
+What are ChatBots?
 =============================================================================
 Chat Bots are light weight conversational apps that can be run inside an app without any new installation required on the user side.
 
