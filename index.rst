@@ -18,7 +18,7 @@ Email us at connect@machaao.com to get you started.
 
 Bonus for Developers / Enterprise
 =============================================================================
-You can also make your existing messenger chat bot run inside your own android / website / ios* in less than a day.
+You can also make your existing messenger chat bot(s) run inside your own android / website / ios* in less than a day.
 
 .. Indices and tables
 .. ==================
