@@ -1,8 +1,9 @@
-The Messaging Apps Platform - Documentation for Android + Web SDKs 🤖
+The Messaging Apps Platform
 =============================================================================
 
-Make your chatbot run in your own android / web / messenger (coming
-soon).
+Make once works everywhere!
+
+Make your chatbot 🤖 run in your own android / web / messenger / sms*
 
 The following code contains sample mini apps along with their server and
 android client components using MACHAAO Conversational Platform
@@ -29,7 +30,7 @@ Register your bot url
 Contact us for registering your bot url and we will issue you an
 api\_token (connect@machaao.com)
 
-Setup your Android Client
+Setup your Android Client 
 -------------------------
 
 Add following to your gradle file Include Machaao Maven Public
