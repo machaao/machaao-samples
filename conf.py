@@ -54,6 +54,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-master_doc = 'ReadMe'
+master_doc = 'index'
 
 html_theme = "sphinx_rtd_theme"
