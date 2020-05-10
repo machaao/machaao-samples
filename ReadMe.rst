@@ -1,9 +1,4 @@
-Get Started
------------------
-Review the Mini Apps Platform API located at
-https://ganglia-dev.machaao.com/api-docs
-
-Current Sample Mini App
+Samples
 -----------------------
 
 **basic\_sample\_bot** : This is an echo bot which shows the basic usage
