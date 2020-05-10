@@ -24,6 +24,8 @@ without any new installation required on the user side.
 
    Ganesha - Personalized Horoscope chatbot powered by GaneshaSpeaks.com
 
+Get Started
+=============================================================================
 .. include:: ./ReadMe.rst
 
 Contact us for Advanced Usage / Implementation Support / Bugs
