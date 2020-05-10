@@ -1,4 +1,4 @@
-The Messaging Apps Platform
+"Mini Apps" Messaging Platform
 =============================================================================
 
 Make once works everywhere!
