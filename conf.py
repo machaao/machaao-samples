@@ -54,6 +54,6 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-master_doc = 'ReadMe.rst'
+master_doc = 'ReadMe'
 
 html_theme = "sphinx_rtd_theme"
