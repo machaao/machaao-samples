@@ -1,4 +1,4 @@
-What is MessengerX?
+What is MessengerX.io?
 =============================================================================
 MessengerX.io is one of it's kind marketplace for consumer based chatbots (Available Now on Android)
 
