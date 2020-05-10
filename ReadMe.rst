@@ -1,6 +1,5 @@
 Get Started
 -----------------
-
 Review the Mini Apps Platform API located at
 https://ganglia-dev.machaao.com/api-docs
 
@@ -116,8 +115,8 @@ Web SDK Instructions
 **Step\_1**: Below is a sample script you need to paste into your
 website to install webchat for your Machaao bot.
 
-``<script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"
-    id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="botkey" src="https://web-client-dev.machaao.com/static/js/script.js"></script>``
+``<script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"``
+    ``id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="botkey" src="https://web-client-dev.machaao.com/static/js/script.js"></script>``
 
 **Step\_2**: You will need to update variables above as shown below:
 
