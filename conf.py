@@ -16,8 +16,9 @@
 
 
 # -- Project information -----------------------------------------------------
+import sphinx_rtd_theme
 
-project = 'Mini Apps API'
+project = 'MACHAAO Mini Apps API'
 copyright = '2020, Harshal Dhir'
 author = 'Harshal Dhir'
 
@@ -30,7 +31,7 @@ release = '0.1.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = ['recommonmark', 'sphinx_rtd_theme']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -54,3 +55,5 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 master_doc = 'index'
+
+html_theme = "sphinx_rtd_theme"
