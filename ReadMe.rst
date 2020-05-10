@@ -30,7 +30,7 @@ Register your bot url
 Contact us for registering your bot url and we will issue you an
 api\_token (connect@machaao.com)
 
-Setup your Android Client 
+Setup your Android Client
 -------------------------
 
 Add following to your gradle file Include Machaao Maven Public
@@ -129,18 +129,19 @@ website to install webchat for your Machaao bot.
 ``<script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript" id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="botkey" src="https://web-client-dev.machaao.com/static/js/script.js"></script>``
 
 **Step\_2**: You will need to update variables above as shown below:
+::
 
-``themecolor`` : Put the desired color in hex or rgb format which will
-be applied to the chat header background, buttons and message bubble
-background.
+  ``themecolor`` : Put the desired color in hex or rgb format which will
+  be applied to the chat header background, buttons and message bubble
+  background.
 
-``botname`` : The name of the bot that will appear on the chat header
+  ``botname`` : The name of the bot that will appear on the chat header
 
-``avatarurl`` : The url of the image that is shown on bot launcher icon.
+  ``avatarurl`` : The url of the image that is shown on bot launcher icon.
 
-``chathost`` : Url where the static assets for the webchat are hosted.
+  ``chathost`` : Url where the static assets for the webchat are hosted.
 
-``machaaokey`` : The API token for your bot proivded by Machaao
+  ``machaaokey`` : The API token for your bot proivded by Machaao
 
 Contact us for Advanced Usage / Implementation Support / Bugs
 -------------------------------------------------------------
