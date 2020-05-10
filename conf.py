@@ -19,7 +19,7 @@
 import sphinx_rtd_theme
 
 project = 'MessengerX.io'
-copyright = 'A Collaboration between Machaao & AppyHigh'
+copyright = '2020, MessengerX.io'
 author = 'Harshal Dhir'
 
 # The full version, including alpha/beta/rc tags
