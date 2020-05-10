@@ -7,10 +7,10 @@ MessengerX.io is a developer marketplace for conversational apps
    :align: center
    :alt: MessengerX.io - Bots everywhere!
 
+   MessengerX.io - Bots Everywhere!
+
 Our platform allows developers to expose their chatbots to millions of devices
 on play store and beyond.
-
-
 
 What are ChatBots?
 =============================================================================
