@@ -1,5 +1,5 @@
-Samples
------------------------
+Get Started
+=============================================================================
 
 **basic\_sample\_bot** : This is an echo bot which shows the basic usage
 of the MACHAAO send message API, it contains the following code base to
@@ -128,3 +128,9 @@ background.
 ``chathost`` : Url where the static assets for the webchat are hosted.
 
 ``machaaokey`` : The API token for your bot proivded by Machaao
+
+
+Contact us for Advanced Usage / Implementation Support / Bugs
+-------------------------------------------------------------
+Please feel free to contact us for advanced support and instructions.
+Email us at connect@machaao.com to get you started.
