@@ -4,8 +4,12 @@
 
 What is MessengerX?
 =============================================================================
-MessengerX is a platform which allows you to expose your messenger chatbot to millions of android devices
-on play store via our publisher partners.
+MessengerX is the first consumer chatbot marketplace (Available Now on Android)
+
+Our platform allows chatbot developers to expose their chatbot to millions of android devices
+on play store via our partner eco system.
+
+More info @ https://messengerx.io
 
 Mini Apps Messaging Platform
 -------------------------------------------------------------
