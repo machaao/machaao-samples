@@ -4,10 +4,10 @@
 
 Introducing MessengerX
 =============================================================================
-MessengerX is one of it's kind marketplace for consumer based chatbots (Available Now on Android)
+MessengerX.io is one of it's kind marketplace for consumer based chatbots (Available Now on Android)
 
 Our platform allows chatbot developers to expose their consumer chatbot to millions of android devices
-on play store via our partner eco system. (https://messengerx.io)
+on play store via our partner eco system.
 
 .. include:: ./ReadMe.rst
 
