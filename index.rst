@@ -18,7 +18,7 @@ Messaging Apps or Chat Bots are light weight programs that can be ran inside an 
 without any new installation required on the user side.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
-   :scale: 20 %
+   :scale: 25 %
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
