@@ -5,15 +5,7 @@
 
 Mini Apps Messaging Platform
 =========================================
-
-Getting Started
-===========
-
-.. mdinclude:: ./README.md
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. mdinclude:: README.md
 
 
 
