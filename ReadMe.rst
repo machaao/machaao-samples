@@ -3,12 +3,15 @@ The Messaging Apps Platform
 
 Make once works everywhere!
 
-Make your messenger or twillio chat bot run inside your own android / website
+Make your chat bot run inside your own android / website
+
+Bonus: Expose your chat bot to millions of devices on play store through MessengerX.io
+
 
 The following code contains sample mini apps along with their server and
 android client components using MACHAAO Conversational Platform
 
-API Documentation
+Get Started
 -----------------
 
 Review the Mini Apps Platform API located at
