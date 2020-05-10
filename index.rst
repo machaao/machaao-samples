@@ -4,9 +4,9 @@
 
 Introducing MessengerX
 =============================================================================
-MessengerX is the first consumer chatbot marketplace (Available Now on Android)
+MessengerX is one of it's kind marketplace for consumer based chatbots (Available Now on Android)
 
-Our platform allows chatbot developers to expose their chatbot to millions of android devices
+Our platform allows chatbot developers to expose their consumer chatbot to millions of android devices
 on play store via our partner eco system. (https://messengerx.io)
 
 .. include:: ./ReadMe.rst
@@ -16,9 +16,9 @@ Contact us for Advanced Usage / Implementation Support / Bugs
 Please feel free to contact us for advanced support and instructions.
 Email us at connect@machaao.com to get you started.
 
-Bonus for Developers
+Bonus for Developers / Enterprise
 =============================================================================
-You can also make run existing chat bot run inside your own android / website in less than a day.
+You can also make your existing messenger chat bot run inside your own android / website / ios* in less than a day.
 
 .. Indices and tables
 .. ==================
