@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 import sphinx_rtd_theme
 
-project = 'MACHAAO Mini Apps API'
-copyright = '2020, Harshal Dhir'
+project = 'MessengerX.io Mini Apps API'
+copyright = '2020, Machaao Inc'
 author = 'Harshal Dhir'
 
 # The full version, including alpha/beta/rc tags
