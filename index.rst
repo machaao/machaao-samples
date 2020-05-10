@@ -22,10 +22,9 @@ Contact us for Advanced Usage / Implementation Support / Bugs
 Please feel free to contact us for advanced support and instructions.
 Email us at connect@machaao.com to get you started.
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+..
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
