@@ -11,10 +11,11 @@ What are ChatBots?
 Chat Bots are light weight conversational programs that can be ran without any new installation required on the user side.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
+   :scale: 25 %
    :align: center
-   :alt: Ganesha - Horoscope Chatbot
+   :alt: Ganesha - Your Horoscope Assistant
 
-   Ganesha - Powered by GaneshaSpeaks.com
+   Ganesha - Daily Horoscopes powered by GaneshaSpeaks.com
 
 .. include:: ./ReadMe.rst
 
