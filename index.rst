@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a developer marketplace for conversational apps
+MessengerX.io is a consumer marketplace for conversational apps
 
 .. figure:: _static/images/my_bots.png
    :scale: 15 %
