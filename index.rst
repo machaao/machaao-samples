@@ -26,6 +26,7 @@ Why MessengerX?
 =============================================================================
 Build once, works everywhere
 Expose your chatbot to 50M+ devices on our growing network.
+Bot Designer - Enterprise*
 
 
 .. include:: ./ReadMe.rst
