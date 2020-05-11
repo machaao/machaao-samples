@@ -2,12 +2,12 @@ What is MessengerX.io?
 =============================================================================
 MessengerX.io is a platform for developers to build deeply personalized messaging experiences
 
-.. .. figure:: _static/images/mpro.png
-..    :scale: 25 %
-..    :align: center
-..    :alt: MessengerX.io - Bots everywhere!
-..
-..    My Mini Apps (MessengerPro by AppyHigh)
+.. figure:: _static/images/my_bots.png
+   :scale: 25 %
+   :align: center
+   :alt: MessengerX.io - Bots everywhere!
+
+   MessengerX - v0.751 - Beta - My Bots
 
 Our platform allows developers to build and expose their chatbots to millions of devices
 on play store and beyond.
