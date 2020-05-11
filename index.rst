@@ -26,26 +26,15 @@ without any new installation required on the user side.
 .. * Expose your chatbot in millions of devices on our growing partner network
 .. * Bot Designer - Enterprise
 
-Ready to build a Messaging App?
+Ready to build a Chatbot?
 =============================================================================
 
 Requirements
 ---------------------
+* Basic understanding of REST APIs
+* You need a MACHAAO Platform Key
 * You need to have a working knowledge in at least one programming language (ex: python, php, javascript, etc)
-* You need to have a basic knowledge of REST APIs and its usage
-* You need a MACHAAO API key
 * If you have used Messenger Platform, that's an added bonus :)
-
-
-
-
-
-
-
-
-
-
-.. include:: ./ReadMe.rst
 
 Small Businesses / Enterprise
 =============================================================================
