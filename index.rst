@@ -26,7 +26,7 @@ without any new installation required on the user side.
 
 .. include:: ./ReadMe.rst
 
-Businesses / Enterprise
+Small Businesses / Enterprise
 =============================================================================
 Are you are business with an existing messenger chatbot or platform?
 Connect your existing messenger chat bot(s) to our platform and run it inside your own android app or website within hours.
