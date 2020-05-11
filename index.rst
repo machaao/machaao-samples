@@ -22,7 +22,8 @@ without any new installation required on the user side.
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
-   Ganesha - A Personalized Horoscope Chatbot - Powered by GaneshaSpeaks.com
+   Ganesha - A Personalized Horoscope Chatbot
+   Powered by GaneshaSpeaks.com
 
 .. include:: ./ReadMe.rst
 
