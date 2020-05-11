@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a platform allows developers to build deeply personalized messaging experiences
+MessengerX.io is a platform allows developers to build deeply personalized messaging apps
 
 Our platform allows chatbot developers to build and expose their chatbots to millions of devices
 in our ecosystem.
