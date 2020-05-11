@@ -7,7 +7,7 @@ MessengerX.io is a platform for developers to build deeply personalized messagin
    :align: center
    :alt: MessengerX.io - Bots everywhere!
 
-   MessengerX.io - My Mini Apps (MessengerPro - Partner App Screenshot)
+   My Mini Apps (MessengerPro by AppyHigh)
 
 Our platform allows developers to build and expose their chatbots to millions of devices
 on play store and beyond.
