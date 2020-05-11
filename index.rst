@@ -21,8 +21,8 @@ without any new installation required on the user side.
    :scale: 25 %
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
-
-   Ganesha - Personalized Horoscope chatbot powered by GaneshaSpeaks.com
+   
+   Ganesha - A Personalized Horoscope Chatbot - Powered by GaneshaSpeaks.com
 
 .. include:: ./ReadMe.rst
 
