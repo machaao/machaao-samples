@@ -26,9 +26,14 @@ without any new installation required on the user side.
 
 .. include:: ./ReadMe.rst
 
-Bonus for Developers / Enterprise
+Businesses / Enterprise
 =============================================================================
-You can also make your existing messenger chat bot(s) run inside your own android / website / ios* in less than a day.
+Are you are business with an existing messenger chatbot or platform?
+Connect your existing messenger chat bot(s) to our platform and run it inside your own android app or website within hours.
+
+Partners
+=============================================================================
+Coming Soon
 
 .. Indices and tables
 .. ==================
