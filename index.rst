@@ -2,9 +2,6 @@ What is MessengerX.io?
 =============================================================================
 MessengerX.io is a platform allows developers to build deeply personalized messaging apps
 
-Our platform allows chatbot developers to build and expose their chatbots to millions of devices
-in our ecosystem.
-
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
    :align: center
@@ -24,6 +21,9 @@ without any new installation required on the user side.
 
    Ganesha - A Personalized Horoscope Chatbot
    Powered by GaneshaSpeaks.com
+
+Our platform allows chatbot developers to build and expose their chatbots to millions of devices
+on our ecosystem.
 
 .. include:: ./ReadMe.rst
 
