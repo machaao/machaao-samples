@@ -1,4 +1,4 @@
-What is MessengerX.io?
+What is MessengerX? (Draft v0.1.0)
 =============================================================================
 MessengerX.io aims to aid developers in building and monetizing deeply personalized messaging apps.
 
@@ -26,20 +26,21 @@ without any new installation required on the user side.
 .. * Expose your chatbot in millions of devices on our growing partner network
 .. * Bot Designer - Enterprise
 
-Ready to build a Chatbot?
+Chatbot Tutorial
 =============================================================================
-
 Requirements
 ---------------------
 * Basic understanding of REST APIs
-* You need a MACHAAO Platform Key
+* You need a MACHAAO Platform Key aka API Token
 * You need to have a working knowledge in at least one programming language (ex: python, php, javascript, etc)
-* If you have used Messenger Platform, that's an added bonus :)
+* If you have used Messenger Platform, Skip to the Integration Section
+
+
 
 Small Businesses / Enterprise
 =============================================================================
 * Do you have an existing facebook messenger chatbot?
-* Go Omnichannel with MessengerX
+* Own your data with our SDKs
 * Make your existing chatbot / platform work inside your client android app or website within hours.
 
 Partners
