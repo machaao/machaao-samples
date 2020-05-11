@@ -32,9 +32,9 @@ Why MessengerX?
 
 Small Businesses / Enterprise
 =============================================================================
-Are you are business with an existing messenger chatbot or platform?
-
-Connect your existing messenger chat bot(s) to our platform and run it inside your own android app or website within hours.
+* Do you have an existing messenger based chatbot or platform?
+* Go Omnichannel
+* Make your existing messenger chat bot(s) work inside your own android app or website within hours.
 
 Partners
 =============================================================================
