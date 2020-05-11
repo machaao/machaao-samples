@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-We make it "easy" to build and monetize deeply personalized messaging experiences.
+MessengerX.io aims to aid developers in building and monetizing deeply personalized messaging experiences.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -21,6 +21,12 @@ without any new installation required on the user side.
 
    Ganesha - A Personalized Horoscope Chatbot
    Powered by GaneshaSpeaks.com
+
+Why MessengerX?
+=============================================================================
+Build once, works everywhere
+Expose your chatbot to 50M+ devices on our growing network.
+
 
 .. include:: ./ReadMe.rst
 
