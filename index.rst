@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io aims to aid developers in building and monetizing deeply personalized messaging experiences.
+MessengerX.io aims to aid developers in building and monetizing deeply personalized messaging apps.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -24,9 +24,9 @@ without any new installation required on the user side.
 
 Why MessengerX?
 =============================================================================
-Build once, works everywhere
-Expose your chatbot to 50M+ devices on our growing network.
-Bot Designer - Enterprise*
+* Build once, works everywhere!
+* Expose your chatbot to 50M+ devices on our growing network.
+* Bot Designer - Enterprise
 
 
 .. include:: ./ReadMe.rst
