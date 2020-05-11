@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io helps developers build and monetize deeply personalized messaging apps.
+We make it "easy" to build and monetize deeply personalized messaging experiences.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
