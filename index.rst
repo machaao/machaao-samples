@@ -34,7 +34,7 @@ Small Businesses / Enterprise
 =============================================================================
 * Do you have an existing messenger based chatbot or platform?
 * Go Omnichannel
-* Make your existing messenger chat bot(s) work inside your own android app or website within hours.
+* Make your existing chatbot / platform work inside your client android app or website within hours.
 
 Partners
 =============================================================================
