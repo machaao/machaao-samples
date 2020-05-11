@@ -11,7 +11,7 @@ MessengerX.io is a platform allows developers to build deeply personalized messa
 
 What are Messaging Apps?
 =============================================================================
-Messaging Apps or Chat Bots are light weight programs that can be ran inside an existing app
+Messaging Apps or Chat Bots are light weight programs that run inside an existing app
 without any new installation required on the user side.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
