@@ -19,7 +19,7 @@ without any new installation required on the user side.
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
-   Ganesha - A Personalized Horoscope Chatbot (courtesy: www.ganeshaspeaks.com)
+   Ganesha - Daily Horoscopes by www.ganeshaspeaks.com
 
 Why MessengerX?
 =============================================================================
