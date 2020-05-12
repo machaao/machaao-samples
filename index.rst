@@ -1,6 +1,6 @@
 What is MessengerX? (Draft v0.1.0)
 =============================================================================
-Our mission is to aid developers looking to build and monetize deeply personalized messaging experiences.
+Our mission is to aid developers looking to build and monetize deeply personalized android chatbots.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -8,18 +8,6 @@ Our mission is to aid developers looking to build and monetize deeply personaliz
    :alt: MessengerX.io - Bots everywhere!
 
    MessengerX - v0.751 - Beta - My Bots
-
-What are Messaging Apps?
-=============================================================================
-Messaging Apps or Chat Bots are light weight programs that run inside an existing app
-without any new installation required on the user side.
-
-.. figure:: _static/images/ganesha_android_screenshot.png
-   :scale: 25 %
-   :align: center
-   :alt: Ganesha - Your Horoscope Assistant
-
-   Ganesha - Daily Horoscopes by www.ganeshaspeaks.com
 
 
 .. Why MessengerX?
@@ -36,16 +24,31 @@ without any new installation required on the user side.
 .. * You need to have a working knowledge in at least one programming language (ex: python, php, javascript, etc)
 .. * If you have used Messenger Platform, Skip to the Integration Section
 
-Messaging Concepts
+Concepts
 =============================================================================
+What is a Chatbot?
+-----------------------------------------------------------------------------
+Messaging Apps or ChatBots are light weight programs that run inside an existing app
+without any new installation required on the user side.
+
+.. figure:: _static/images/ganesha_android_screenshot.png
+   :scale: 25 %
+   :align: center
+   :alt: Ganesha - Your Horoscope Assistant
+
+   Ganesha - Daily Horoscope Chatbot (Powered by GaneshaSpeaks.com)
+
 Webhooks
 -----------------------------------------------------------------------------
 Message
 -----------------------------------------------------------------------------
 Quick Replies
 -----------------------------------------------------------------------------
-Button Types
+Buttons
 -----------------------------------------------------------------------------
+
+Sending Messages
+=============================================================================
 Sending Text
 -----------------------------------------------------------------------------
 Sending a Media Attachment
