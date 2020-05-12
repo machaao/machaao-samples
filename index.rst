@@ -1,6 +1,6 @@
 What is MessengerX? (Draft v0.1.0)
 =============================================================================
-MessengerX.io aims to aid developers in building and monetizing deeply personalized messaging apps.
+Our mission is to aid developers looking to build and monetize deeply personalized messaging experiences.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -21,20 +21,29 @@ without any new installation required on the user side.
 
    Ganesha - Daily Horoscopes by www.ganeshaspeaks.com
 
+
 .. Why MessengerX?
 .. =============================================================================
 .. * Expose your chatbot in millions of devices on our growing partner network
 .. * Bot Designer - Enterprise
+..
+.. Chatbot Tutorial
+.. =============================================================================
+.. Requirements
+.. ---------------------
+.. * Basic understanding of REST APIs
+.. * You need a MACHAAO Platform Key aka API Token
+.. * You need to have a working knowledge in at least one programming language (ex: python, php, javascript, etc)
+.. * If you have used Messenger Platform, Skip to the Integration Section
 
-Chatbot Tutorial
+Messaging Concepts
 =============================================================================
-Requirements
----------------------
-* Basic understanding of REST APIs
-* You need a MACHAAO Platform Key aka API Token
-* You need to have a working knowledge in at least one programming language (ex: python, php, javascript, etc)
-* If you have used Messenger Platform, Skip to the Integration Section
-
+Sending Text
+-----------------------------------------------------------------------------
+Sending a Media Attachment
+-----------------------------------------------------------------------------
+Sending a List of Media Attachments
+-----------------------------------------------------------------------------
 
 
 Small Businesses / Enterprise
