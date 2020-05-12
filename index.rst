@@ -1,6 +1,6 @@
 What is MessengerX? (Draft v0.1.0)
 =============================================================================
-Our mission is to aid developers looking to build and monetize deeply personalized android chatbots.
+Our mission is to aid developers who are looking to build and monetize deeply personalized chatbots.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
