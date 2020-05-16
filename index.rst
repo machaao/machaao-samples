@@ -25,7 +25,7 @@ Why MessengerX.io?
 With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumer in addition millions of active devices
 in our collective app ecosystem, we intend to bridge the gap between good chatbot developers and end users.
 
-How does it Work?
+How it Works?
 -----------------------------------------------------------------------------
 .. figure:: _static/images/how_it_works.png
    :scale: 100 %
