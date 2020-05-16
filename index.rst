@@ -25,7 +25,7 @@ Why MessengerX.io?
 With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumer in addition millions of active devices
 in our collective app ecosystem, we intend to bridge the gap between good chatbot developers and end users.
 
-As Darren Yau - Our lead chatbot developer puts it aptly, “If you already have a Messenger based chatbot you can seamlessly launch and expose your bot on millions of android devices within days if not hours!”
+As Darren Yau - Our lead chatbot developer puts it aptly, “If you already have a Facebook Messenger based chatbot you can seamlessly launch and expose your bot on millions of android devices within days if not hours!”
 
 The APIs have been made available for FREE to developers looking to build and monetize deeply personalized chatbots or as we fondly call them - “Messaging Apps”
 
