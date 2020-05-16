@@ -8,7 +8,7 @@ with an aim to aid developers looking to build and monetize deeply personalized 
    :align: center
    :alt: MessengerX.io - Bots everywhere!
 
-   MessengerX SDK - v0.751 - Beta - My Bots
+   MessengerX Multi Bot SDK - v0.751 - Beta - My Bots
 
 The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
 
