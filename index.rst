@@ -41,9 +41,7 @@ without any new installation required on the user side.
 What is a Webhook?
 -----------------------------------------------------------------------------
 Webhook is a REST endpoint url which denotes your custom functions / callbacks.
-
-In our case, webhook is the bot url on your end
-which will receive the incoming messages destined for your bot
+This is the end point which will receive any incoming messages destined for your bot.
 
 How does it work?
 -----------------------------------------------------------------------------
