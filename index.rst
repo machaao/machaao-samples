@@ -38,29 +38,29 @@ without any new installation required on the user side.
 
    Ganesha - Daily Horoscope Chatbot (Powered by GaneshaSpeaks.com)
 
-How does it work?
------------------------------------------------------------------------------
-.. figure:: _static/images/how_it_works.png
-   :scale: 100 %
-   :align: center
-   :alt: MessengerX Platform
-
-When a person sends a message to your bot through MessengerX SDKs integrated inside the partner app, the following should happen.
-
-Our "servers" sends incoming messages to the specified Webhook URL in your settings, where your messaging app is hosted.
-
-Using the Send Message API, the mini app or the chat bot can respond to the person on Messenger.
-
-The MessengerX Platform does not require any payment for developers looking to build consumer based chatbots.
-
-
-
-Webhooks
+What is a Webhook?
 -----------------------------------------------------------------------------
 Webhook is a REST endpoint url which denotes your custom functions / callbacks.
 
 In our case, webhook is the bot url on your end
 which will receive the incoming messages destined for your bot
+
+How does it work?
+-----------------------------------------------------------------------------
+As depicted in the figure below,
+When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s),
+the following should happen.
+
+* Our "servers" sends incoming messages to the configured Webhook URL, where your messaging app is hosted.
+
+* Using the Send Message API, the mini app or the chat bot can respond to the person on Messenger.
+
+.. figure:: _static/images/how_it_works.png
+   :scale: 100 %
+   :align: center
+   :alt: How it Works - MessengerX.io
+
+The MessengerX Platform is FREE for developers looking to build consumer based chatbots.
 
 Message
 -----------------------------------------------------------------------------
