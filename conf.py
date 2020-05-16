@@ -23,7 +23,7 @@ copyright = '2020, MessengerX.io'
 author = 'Harshal Dhir'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.2-beta'
+release = '0.1.5'
 
 
 # -- General configuration ---------------------------------------------------
