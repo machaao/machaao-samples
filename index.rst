@@ -56,9 +56,9 @@ developers looking to build deeply personalized omnichannel messaging apps:
 * Deep Personalization via Tagging API
 * Deeper Engagement via Announcement API
 * FREE Hosting for your chat bot (Subjected to Approval)
-* Data Capture API (Premium)
-* Headless Conversational CMS API (Premium)
-* Transaction API (Premium)
+* Headless Conversational CMS API
+* Data Capture API
+* Transactional Wallet API
 * Guaranteed Message Processing (Premium)
 * Admin Dashboard (Premium)
 * UI Bot Designer (Premium)
