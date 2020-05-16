@@ -55,7 +55,7 @@ the following should happen.
 
 * Our "servers" sends incoming messages to the configured Webhook URL, where your messaging app is hosted.
 
-* Using the Send Message API, the mini app or the chat bot can respond to the person on Messenger.
+* Using the Send Message API, the mini app or the chat bot can respond to the person on the Partner App.
 
 The MessengerX Platform is FREE for developers looking to build consumer based chatbots.
 
