@@ -2,3 +2,5 @@
 */.DS_Store
 _build
 _build/*
+.idea
+.idea/*

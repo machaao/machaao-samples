@@ -40,8 +40,15 @@ without any new installation required on the user side.
 
 Webhooks
 -----------------------------------------------------------------------------
+Webhook is a REST endpoint url which denotes your custom functions / callbacks.
+
+In our case, webhook is the bot url on your end
+which will receive the incoming messages destined for your bot
+
 Message
 -----------------------------------------------------------------------------
+
+
 Quick Replies
 -----------------------------------------------------------------------------
 Buttons
