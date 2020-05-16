@@ -77,9 +77,51 @@ Webhook is a REST endpoint url which denotes your custom functions / callbacks.
 
 This is the end point which will receive any incoming messages destined for your bot.
 
-What is a Message?
+What is a Message Payload?
 -----------------------------------------------------------------------------
+A message payload is a JSON representation of am APP action taken by the end user.
 
+Raw Incoming Message
+-----------------------------------------------------------------------------
+Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
+
+::
+
+ {"raw":"eyJhbGciOiJIUziJ9.===jsY8eeeru2i1vcsJQ"}
+ // a sample raw incoming message
+
+
+Decrypting a Message
+-----------------------
+Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
+
+::
+
+ {
+   "sub":{
+      "messaging":[
+         {
+            "message_data":{
+               "text":"hi",
+               "action_type":"get_started"
+            },
+            "user":{
+               "userId":"JzBt502kWS",
+               "creation_time":1589518339556,
+               "device_id":"c311b145ed6a96d6",
+               "email":"c311b145ed6a96d6@machaao.com",
+               "timezone":"-7.0"
+            },
+            "sender":"dWnjre9rTr65ZeiOmrY1oU",
+            "silent":false,
+            "client":"messenger.---.debug",
+            "version":"0.814"
+         }
+      ]
+   }
+ }
+
+Let's go through this decoded payload
 
 Quick Replies
 -----------------------------------------------------------------------------
