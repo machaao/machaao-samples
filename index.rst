@@ -12,9 +12,12 @@ with an aim to aid developers looking to build and monetize deeply personalized 
 
 The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
 
-The Messenger Platform, so far has been the only medium to truly get any kind of “traction” on your consumer facing bot.
+The Facebook owned Messenger Platform, so far has been the only medium to truly get any kind of “traction” on your consumer facing bot.
 
-But, the reach and the engagement has been severely impacted by the introduction of changes in Facebook Messenger Platform Policy as well as the removal of the Discover Feature.
+Also, let's not forget the abilities of the Messenger Platform are way ahead than Twitter, WhatsApp.
+
+But that being said, the reach and the engagement has been severely
+impacted by the introduction of changes in Facebook Messenger Platform Policy as well as the removal of the Discover Feature.
 
 Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the phone number.
 
