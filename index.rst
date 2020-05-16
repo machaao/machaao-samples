@@ -53,7 +53,7 @@ the following should happen.
 * Using the Send Message API, the mini app or the chat bot can respond to the person on the Partner App.
 
 .. figure:: _static/images/how_it_works.png
-   :scale: 75 %
+   :scale: 100 %
    :align: center
    :alt: How it Works - MessengerX.io
 
