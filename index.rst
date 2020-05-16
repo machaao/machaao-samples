@@ -41,7 +41,7 @@ without any new installation required on the user side.
 How does it work?
 -----------------------------------------------------------------------------
 .. figure:: _static/images/how_it_works.png
-   :scale: 25 %
+   :scale: 100 %
    :align: center
    :alt: MessengerX Platform
 
