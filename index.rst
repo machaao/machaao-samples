@@ -57,22 +57,6 @@ and expose your bot on millions of android devices within days if not hours!”
 
 The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
 
-Additional Perks for Developers
------------------------------------------------------------------------------
-In addition to the massive savings on marketing costs, the platform also offers
-a developer suite looking to build deeply personalized apps:
-
-* Rich Messaging Support via Core Messaging API
-* Deep Personalization via Tagging API
-* Deeper Engagement via Announcement API
-* FREE Hosting for your chat bot (Subjected to Approval)
-* Headless Conversational CMS API
-* Data Capture API
-* Transactional Wallet API
-* Guaranteed Message Processing (Premium)
-* Admin Dashboard (Premium)
-* UI Bot Designer (Premium)
-
 Concepts
 =============================================================================
 What is a Chatbot?
@@ -116,6 +100,24 @@ Small Businesses / Enterprise
 * Do you have an existing facebook messenger chatbot?
 * Own your data with our SDKs
 * Make your existing chatbot / platform work inside your client android app or website within hours.
+
+
+Additional Perks for Developers
+=============================================================================
+In addition to the massive savings on marketing costs, the platform also offers
+a developer suite looking to build deeply personalized apps:
+
+* Rich Messaging Support via Core Messaging API
+* Deep Personalization via Tagging API
+* Deeper Engagement via Announcement API
+* FREE Hosting for your chat bot (Subjected to Approval)
+* Headless Conversational CMS API
+* Data Capture API
+* Transactional Wallet API
+* Guaranteed Message Processing (Premium)
+* Admin Dashboard (Premium)
+* UI Bot Designer (Premium)
+
 
 Partners
 =============================================================================
