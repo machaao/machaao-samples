@@ -1,5 +1,8 @@
 What is MessengerX? (Draft v0.1.0)
 =============================================================================
+MessengerX.io is a collaboration between MACHAAO and AppyHigh,
+with an aim to aid developers looking to build and monetize deeply personalized messaging experiences.
+
 The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
 
 The Messenger Platform, so far has been the only medium to truly get any kind of “traction” on your consumer facing bot.
@@ -9,9 +12,6 @@ But, the reach and the engagement has been severely impacted by the introduction
 Even, if you were to choose WhatsApp there is a marketing spend associated with promoting the phone number.
 
 Such marketing spend numbers are generally not in the reach of Indie developers who are looking to build personal assistants for end consumers.
-
-MessengerX.io is a collaboration between MACHAAO and AppyHigh,
-with an aim to aid developers looking to build and monetize deeply personalized messaging experiences.
 
 Why MessengerX.io?
 =============================================================================
