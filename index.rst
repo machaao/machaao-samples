@@ -36,7 +36,7 @@ without any new installation required on the user side.
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
-   Ganesha - Daily Horoscope Chatbot (Powered by GaneshaSpeaks.com)
+   Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
 What is a Webhook?
 -----------------------------------------------------------------------------
