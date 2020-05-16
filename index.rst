@@ -48,7 +48,7 @@ Using the Send Message API, the mini app or the chat bot can respond to the pers
 
 The MessengerX Platform does not require any payment for developers looking to build consumer based chatbots.
 
-.. figure:: https://www.messengerx.io/img/group-38.png
+.. figure:: _static/images/how_it_works.png
    :scale: 25 %
    :align: center
    :alt: MessengerX Platform
