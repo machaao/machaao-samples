@@ -40,7 +40,12 @@ without any new installation required on the user side.
 
 How does it work?
 -----------------------------------------------------------------------------
-When a person sends a message to your bot through MessengerX SDKs integrated the partner app, the following will happen.
+.. figure:: _static/images/how_it_works.png
+   :scale: 25 %
+   :align: center
+   :alt: MessengerX Platform
+
+When a person sends a message to your bot through MessengerX SDKs integrated inside the partner app, the following should happen.
 
 Our "servers" sends incoming messages to the specified Webhook URL in your settings, where your messaging app is hosted.
 
@@ -48,10 +53,6 @@ Using the Send Message API, the mini app or the chat bot can respond to the pers
 
 The MessengerX Platform does not require any payment for developers looking to build consumer based chatbots.
 
-.. figure:: _static/images/how_it_works.png
-   :scale: 25 %
-   :align: center
-   :alt: MessengerX Platform
 
 
 Webhooks
