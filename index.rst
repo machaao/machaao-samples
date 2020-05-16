@@ -18,17 +18,12 @@ But, the reach and the engagement has been severely impacted by the introduction
 
 Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the phone number.
 
-Such marketing spend numbers are generally not in the reach of independent developers / small business who are looking to build deeply personalized chat bots.
+Such marketing spend numbers are generally not in the reach of independent developers or small businesses who are looking to build deeply personalized chat bots.
 
 Why MessengerX.io?
 =============================================================================
 With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumer in addition millions of active devices
 in our collective app ecosystem, we intend to bridge the gap between good chatbot developers and end users.
-
-As Darren Yau - Our lead chatbot developer puts it aptly, “If you already have a Facebook Messenger based chatbot you can seamlessly launch and expose your bot on millions of android devices within days if not hours!”
-
-The APIs have been made available for FREE to developers looking to build and monetize deeply personalized chatbots or as we fondly call them - “Messaging Apps”
-
 
 How does it Work?
 -----------------------------------------------------------------------------
@@ -46,17 +41,21 @@ the following should happen.
 
 * Using the Send Message API, the mini app or the chat bot can respond to the person on the Partner App.
 
+As Darren Yau - Our lead chat bot developer puts it aptly,
+“If you already have a Facebook Messenger based chatbot you can seamlessly launch
+and expose your bot on millions of android devices within days if not hours!”
+
 The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
 
 Additional Perks for Developers
 -----------------------------------------------------------------------------
 In addition to the FREE exposure, the platform offers many re-usable features for developers such as:
 
-* UI Rich Messaging Support via Messaging API
-* Deep Personalization via User Tagging API
-* Deeper Engagement through Announcement API
-* FREE Android + Web SDK Toolkit
-* FREE Hosting for your RASA Bot
+* Rich Messaging Support via Core Messaging API
+* Deep Personalization via Tagging API
+* Deeper Engagement via Announcement API
+* FREE Hosting for your chatbot (Subjected to Approval)
+* Launch on your own website with our Android + Web SDK Toolkit
 * Data Capture API (Premium)
 * Headless Conversational CMS API (Premium)
 * Transaction API (Premium)
