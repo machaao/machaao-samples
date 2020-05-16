@@ -50,17 +50,18 @@ The MessengerX Platform is FREE for developers looking to build highly engaging 
 Additional Perks for Developers
 -----------------------------------------------------------------------------
 In addition to the FREE exposure, the platform offers
-developers looking to build messaging apps with our multiple platform api(s):
+developers looking to build deeply personalized omnichannel messaging apps:
 
 * Rich Messaging Support via Core Messaging API
 * Deep Personalization via Tagging API
 * Deeper Engagement via Announcement API
-* FREE Hosting for your chatbot (Subjected to Approval)
-* Launch on your own website with our Android + Web SDK Toolkit
+* FREE Hosting for your chat bot (Subjected to Approval)
 * Data Capture API (Premium)
 * Headless Conversational CMS API (Premium)
 * Transaction API (Premium)
 * Guaranteed Message Processing (Premium)
+* Admin Dashboard (Premium)
+* UI Bot Designer (Premium)
 
 Concepts
 =============================================================================
