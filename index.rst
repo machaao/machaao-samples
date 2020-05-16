@@ -49,8 +49,8 @@ The MessengerX Platform is FREE for developers looking to build highly engaging 
 
 Additional Perks for Developers
 -----------------------------------------------------------------------------
-In addition to the FREE exposure, the platform offers
-developers looking to build deeply personalized omnichannel messaging apps:
+In addition to the massive savings on marketing costs, the platform also offers
+a developer suite looking to build deeply personalized apps:
 
 * Rich Messaging Support via Core Messaging API
 * Deep Personalization via Tagging API
