@@ -33,7 +33,7 @@ in addition millions of active devices in our collective app ecosystem.
 
 We see there is a gap between good chat bots and end users, alleviated now by the removal of Discover feature by Facebook.
 
-We aim to bridge this gap between developers and end users!
+We aim to bridge this gap between chat bots and end users!
 
 How it Works?
 -----------------------------------------------------------------------------
