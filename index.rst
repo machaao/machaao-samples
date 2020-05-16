@@ -1,6 +1,22 @@
 What is MessengerX? (Draft v0.1.0)
 =============================================================================
-Our mission is to aid developers who are looking to build and monetize deeply personalized chatbots.
+The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
+
+The Messenger Platform, so far has been the only medium to truly get any kind of “traction” on your consumer facing bot.
+
+But, the reach and the engagement has been severely impacted by the introduction of changes in policy as well as the removal of the Discover Feature.
+
+Even, if you were to choose WhatsApp there is a marketing spend associated with promoting the phone number.
+
+Such marketing spend numbers are generally not in the reach of Indie developers who are looking to build personal assistants for end consumers.
+
+MessengerX.io is a collaboration between MACHAAO and AppyHigh,
+with an aim to aid developers looking to build and monetize deeply personalized messaging experiences.
+
+Why MessengerX.io?
+=============================================================================
+
+With our unique learnings in the space and millions of active installs in our collective app ecosystem, we intend to bridge the gap between good chatbots and end users.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -9,20 +25,9 @@ Our mission is to aid developers who are looking to build and monetize deeply pe
 
    MessengerX - v0.751 - Beta - My Bots
 
+As Darren Yau - Our lead chatbot developer puts it aptly, “If you already have a Messenger based chatbot you can seamlessly launch and expose your bot on millions of android devices within days if not hours!”
 
-.. Why MessengerX?
-.. =============================================================================
-.. * Expose your chatbot in millions of devices on our growing partner network
-.. * Bot Designer - Enterprise
-..
-.. Chatbot Tutorial
-.. =============================================================================
-.. Requirements
-.. ---------------------
-.. * Basic understanding of REST APIs
-.. * You need a MACHAAO Platform Key aka API Token
-.. * You need to have a working knowledge in at least one programming language (ex: python, php, javascript, etc)
-.. * If you have used Messenger Platform, Skip to the Integration Section
+The APIs have been made available for FREE to developers looking to build and monetize deeply personalized chatbots or as we fondly call them - “Mini Apps”
 
 Concepts
 =============================================================================
@@ -36,7 +41,7 @@ without any new installation required on the user side.
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
-   Horoscope Assistant (Powered by GaneshaSpeaks.com)
+   Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
 What is a Webhook?
 -----------------------------------------------------------------------------
