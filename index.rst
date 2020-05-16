@@ -15,7 +15,8 @@ with an aim to aid developers looking to build and monetize deeply personalized 
 
 Why MessengerX.io?
 =============================================================================
-With our unique learnings in the space and millions of active installs in our collective app ecosystem, we intend to bridge the gap between good chatbots and end users.
+With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumer in addition millions of active devices
+in our collective app ecosystem, we intend to bridge the gap between good chatbot developers and end users.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -27,6 +28,39 @@ With our unique learnings in the space and millions of active installs in our co
 As Darren Yau - Our lead chatbot developer puts it aptly, “If you already have a Messenger based chatbot you can seamlessly launch and expose your bot on millions of android devices within days if not hours!”
 
 The APIs have been made available for FREE to developers looking to build and monetize deeply personalized chatbots or as we fondly call them - “Messaging Apps”
+
+
+How does it Work?
+-----------------------------------------------------------------------------
+.. figure:: _static/images/how_it_works.png
+   :scale: 100 %
+   :align: center
+   :alt: How it Works - MessengerX.io
+
+   How it Works? - MessengerX.io
+
+When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s),
+the following should happen.
+
+* Our "servers" sends incoming messages to the configured Webhook URL, where your messaging app is hosted.
+
+* Using the Send Message API, the mini app or the chat bot can respond to the person on the Partner App.
+
+The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
+
+Additional Perks for Developers
+-----------------------------------------------------------------------------
+In addition to the FREE exposure, the platform offers many re-usable features for developers such as:
+
+* UI Rich Messaging Support via Messaging API
+* Deep Personalization via User Tagging API
+* Deeper Engagement through Announcement API
+* FREE Android + Web SDK Toolkit
+* FREE Hosting for your RASA Bot
+* Data Capture API (Premium)
+* Headless Conversational CMS API (Premium)
+* Transaction API (Premium)
+* Guaranteed Message Processing (Premium)
 
 Concepts
 =============================================================================
@@ -47,25 +81,7 @@ What is a Webhook?
 Webhook is a REST endpoint url which denotes your custom functions / callbacks.
 This is the end point which will receive any incoming messages destined for your bot.
 
-How does it work?
------------------------------------------------------------------------------
-.. figure:: _static/images/how_it_works.png
-   :scale: 100 %
-   :align: center
-   :alt: How it Works - MessengerX.io
-
-   How it Works? - MessengerX.io
-
-When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s),
-the following should happen.
-
-* Our "servers" sends incoming messages to the configured Webhook URL, where your messaging app is hosted.
-
-* Using the Send Message API, the mini app or the chat bot can respond to the person on the Partner App.
-
-The MessengerX Platform is FREE for developers looking to build consumer based chatbots.
-
-Message
+What is a Message?
 -----------------------------------------------------------------------------
 
 
