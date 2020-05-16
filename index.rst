@@ -56,7 +56,7 @@ the following should happen.
 * Using the Send Message API, the mini app or the chat bot can respond to the person on Messenger.
 
 .. figure:: _static/images/how_it_works.png
-   :scale: 100 %
+   :scale: 75 %
    :align: center
    :alt: How it Works - MessengerX.io
 
