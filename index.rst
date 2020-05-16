@@ -15,7 +15,6 @@ with an aim to aid developers looking to build and monetize deeply personalized 
 
 Why MessengerX.io?
 =============================================================================
-
 With our unique learnings in the space and millions of active installs in our collective app ecosystem, we intend to bridge the gap between good chatbots and end users.
 
 .. figure:: _static/images/my_bots.png
@@ -27,7 +26,7 @@ With our unique learnings in the space and millions of active installs in our co
 
 As Darren Yau - Our lead chatbot developer puts it aptly, “If you already have a Messenger based chatbot you can seamlessly launch and expose your bot on millions of android devices within days if not hours!”
 
-The APIs have been made available for FREE to developers looking to build and monetize deeply personalized chatbots or as we fondly call them - “Mini Apps”
+The APIs have been made available for FREE to developers looking to build and monetize deeply personalized chatbots or as we fondly call them - “Messaging Apps”
 
 Concepts
 =============================================================================
