@@ -8,25 +8,32 @@ with an aim to aid developers looking to build and monetize deeply personalized 
    :align: center
    :alt: MessengerX.io - Bots everywhere!
 
-   MessengerX Multi Bot SDK - v0.751 - Beta - My Bots
+   MessengerX Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
 
 The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
 
-The Facebook owned Messenger Platform, so far has been the only medium to truly get any kind of “traction” on your consumer facing bot.
+Facebook's Messenger Platform, so far has been the only viable option available to truly get any kind of “traction” on your consumer facing bot.
 
-Also, let's not forget the abilities of the Messenger Platform are way ahead than Twitter, WhatsApp.
+Also, let's not forget the abilities of the Messenger Platform,
+which are way ahead in our opinion than currently supported by Twitter, WhatsApp.
 
-But that being said, the reach and the engagement has been severely
-impacted by the introduction of changes in Facebook Messenger Platform Policy as well as the removal of the Discover Feature.
+But that being said, the reach and the engagement has been severely impacted by the introduction of changes in Facebook Messenger Platform Policy
+as well as the removal of the Discover Feature.
 
-Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the phone number.
+Even, if you were to look to WhatsApp as an alternative,
+there is a marketing spend associated with promoting the phone number.
 
-Such marketing spend numbers are generally not in the reach of independent developers or small businesses who are looking to build deeply personalized chat bots.
+Such marketing spend numbers are generally not in the reach of independent developers or small businesses
+who are looking to build deeply personalized chat bots.
 
 Why MessengerX.io?
 =============================================================================
-With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumer in addition millions of active devices
-in our collective app ecosystem, we intend to bridge the gap between good chatbot developers and end users.
+With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumer
+in addition millions of active devices in our collective app ecosystem.
+
+We see there is a gap between good chat bots and end users, alleviated now by the removal of Discover feature by Facebook.
+
+We aim to bridge this gap between developers and end users!
 
 How it Works?
 -----------------------------------------------------------------------------
