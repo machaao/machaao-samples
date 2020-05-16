@@ -14,11 +14,11 @@ The issue of customer acquisition has been plaguing the chatbot industry for som
 
 The Messenger Platform, so far has been the only medium to truly get any kind of “traction” on your consumer facing bot.
 
-But, the reach and the engagement has been severely impacted by the introduction of changes in policy as well as the removal of the Discover Feature.
+But, the reach and the engagement has been severely impacted by the introduction of changes in Facebook Messenger Platform Policy as well as the removal of the Discover Feature.
 
-Even, if you were to choose WhatsApp there is a marketing spend associated with promoting the phone number.
+Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the phone number.
 
-Such marketing spend numbers are generally not in the reach of Indie developers who are looking to build personal assistants for end consumers.
+Such marketing spend numbers are generally not in the reach of independent developers / small business who are looking to build deeply personalized chat bots.
 
 Why MessengerX.io?
 =============================================================================
