@@ -3,7 +3,7 @@ What is MessengerX? (Draft In Progress)
 MessengerX.io is a collaboration between MACHAAO and AppyHigh,
 with an aim to aid developers looking to build and monetize deeply personalized messaging experiences.
 
-.. figure:: _static/images/my_bots.png
+.. figure:: _static/images/mpro.png
    :scale: 25 %
    :align: center
    :alt: MessengerX.io - Bots everywhere!
@@ -57,7 +57,7 @@ and expose your bot on millions of android devices within days if not hours!”
 
 The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
 
-Concepts
+Chatbot Concepts
 =============================================================================
 What is a Chatbot?
 -----------------------------------------------------------------------------
