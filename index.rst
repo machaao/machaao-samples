@@ -33,9 +33,9 @@ Why MessengerX.io?
 With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumers
 in addition millions of active devices in our collective app ecosystem.
 
-We see there is a gap between good chat bots and end users, alleviated now by the removal of Discover feature by Facebook.
+We see there is a gap between good chat bots and end users due to the nature of current messaging eco-systems.
 
-We aim to bridge this gap between great chatbots and end users!
+We aim to bridge this gap between "great" chatbots and end users!
 
 How it Works?
 =============================================================================
@@ -47,12 +47,13 @@ How it Works?
 
    How it Works? - MessengerX.io
 
-When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s),
-the following should happen.
+When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s).
 
-* Our servers would route the incoming messages to the configured Webhook URL, where your messaging app is hosted.
+The following set of events sequence should happen when a message is received destined for you bot.
 
-* Using the Send Message API, the mini app or the chat bot can respond to the person on the Partner App.
+* Our servers would route the incoming messages to Your Webhook or CHAT BOT URL, where your messaging app or chatbot is hosted.
+
+* Using the Send Message API, the mini app or the chat bot can then respond to the person directly on the Partner App via our Platform APIs
 
 As Darren Yau - Our lead chat bot developer puts it aptly,
 “If you already have a Facebook Messenger based chatbot you can seamlessly launch
