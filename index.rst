@@ -10,7 +10,7 @@ with an aim to aid developers looking to build and monetize deeply personalized 
 
    Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
 
-Our Story
+The Problem
 =============================================================================
 The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
 
@@ -29,7 +29,7 @@ Such marketing spend numbers are generally not in the reach of independent devel
 who are looking to build deeply personalized chat bots.
 
 Why MessengerX.io?
------------------------------------------------------------------------------
+=============================================================================
 With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumers
 in addition millions of active devices in our collective app ecosystem.
 
@@ -38,7 +38,8 @@ We see there is a gap between good chat bots and end users, alleviated now by th
 We aim to bridge this gap between great chatbots and end users!
 
 How it Works?
------------------------------------------------------------------------------
+=============================================================================
+
 .. figure:: _static/images/how_it_works.png
    :scale: 100 %
    :align: center
