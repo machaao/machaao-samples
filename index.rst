@@ -90,9 +90,20 @@ Below is the JSON representation of the raw incoming message that your webhook w
  {"raw":"eyJhbGciOiJIUziJ9.===jsY8eeeru2i1vcsJQ....."}
 
 
-Decrypting a message payload
+Decrypting Incoming Message Payload
 -----------------------------------------------------------------------------
-Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
+To decrypt the incoming payload, you can use the open source JWT.io libraries available for all major programming languages
+
+Let's quickly go through this incoming message object payload
+
+* messaging: list of incoming message actions
+* message_data: details about the nature of data sent.
+* user: basic user details about the user requesting information.
+* sender: the unique device id of the user.
+* client: the partner app client id.
+* version: android / web sdk client version
+* silent: if silent is true, don't reply back to the request.
+
 
 ::
 
@@ -120,7 +131,6 @@ Below is the JSON representation of the raw incoming message that your webhook w
    }
  }
 
-Let's go through this decoded payload
 
 Quick Replies
 -----------------------------------------------------------------------------
