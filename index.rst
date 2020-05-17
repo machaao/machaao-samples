@@ -201,7 +201,7 @@ Below is an example CURL request to send a message attachment to a particular us
 
 Sending a List of Media Attachment(s)
 -----------------------------------------------------------------------------
-Below is an example CURL request to send a message attachment to a particular user id using our Core Messaging APIs.
+Below is an example CURL request to send a list of attachments / media elements to a particular user id using our Core Messaging APIs.
 
 ::
 
@@ -237,6 +237,8 @@ Below is an example CURL request to send a message attachment to a particular us
           }]
        }
     }'
+
+
 
 Small Businesses / Enterprise
 =============================================================================
