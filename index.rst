@@ -137,7 +137,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Send a Text Message
+Sending Messages to Users
 =============================================================================
 
 
