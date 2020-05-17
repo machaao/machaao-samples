@@ -79,9 +79,9 @@ This is the end point which will receive any incoming messages destined for your
 
 What is a Message Payload?
 -----------------------------------------------------------------------------
-A message payload is a JSON representation of am APP action taken by the end user.
+A message payload is a JSON representation of an incoming message sent by the end user.
 
-Raw Incoming Message
+Raw Incoming Message Payload
 -----------------------------------------------------------------------------
 Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
 
@@ -90,8 +90,8 @@ Below is the JSON representation of the raw incoming message that your webhook w
  {"raw":"eyJhbGciOiJIUziJ9.===jsY8eeeru2i1vcsJQ....."}
 
 
-Decrypting a Message
------------------------
+Decrypting a message payload
+-----------------------------------------------------------------------------
 Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
 
 ::
