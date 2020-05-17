@@ -4,7 +4,7 @@ MessengerX.io is a collaboration between MACHAAO and AppyHigh,
 with an aim to aid developers looking to build and monetize deeply personalized messaging experiences.
 
 .. figure:: _static/images/mpro.png
-   :scale: 25 %
+   :scale: 100 %
    :align: center
    :alt: MessengerX.io - Bots everywhere!
 
