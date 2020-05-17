@@ -72,7 +72,7 @@ without any new installation required on the user side.
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
-Receiving Messages from Users
+Incoming Messages
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
@@ -137,7 +137,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Sending Messages to Users
+Outgoing Messages to Specific Users
 =============================================================================
 Sending a outgoing message to users can be done by the usage of our core Send API
 
