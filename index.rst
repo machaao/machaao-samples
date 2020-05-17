@@ -87,8 +87,7 @@ Below is the JSON representation of the raw incoming message that your webhook w
 
 ::
 
- {"raw":"eyJhbGciOiJIUziJ9.===jsY8eeeru2i1vcsJQ"}
- // a sample raw incoming message
+ {"raw":"eyJhbGciOiJIUziJ9.===jsY8eeeru2i1vcsJQ....."}
 
 
 Decrypting a Message
