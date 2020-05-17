@@ -60,10 +60,8 @@ and expose your bot on millions of android devices within days if not hours!”
 
 The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
 
-Chatbot Concepts
-=============================================================================
 What is a Chatbot?
------------------------------------------------------------------------------
+=============================================================================
 Messaging Apps or ChatBots are light weight programs that run inside an existing app
 without any new installation required on the user side.
 
@@ -74,6 +72,8 @@ without any new installation required on the user side.
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
+Receiving Messages
+=============================================================================
 What is a Webhook?
 -----------------------------------------------------------------------------
 Webhook is a REST endpoint url which denotes your custom functions / callbacks.
@@ -134,20 +134,19 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-
-Quick Replies
------------------------------------------------------------------------------
-Buttons
------------------------------------------------------------------------------
-
 Sending Messages
 =============================================================================
 Sending Text
 -----------------------------------------------------------------------------
+Coming Soon
+
 Sending a Media Attachment
 -----------------------------------------------------------------------------
+Coming Soon
+
 Sending a List of Media Attachments
 -----------------------------------------------------------------------------
+Coming Soon
 
 Small Businesses / Enterprise
 =============================================================================
