@@ -137,7 +137,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Outgoing Messages to Specific Users
+Outgoing Messages to Specific User(s)
 =============================================================================
 Sending a outgoing message to users can be done by the usage of our core Send API
 
