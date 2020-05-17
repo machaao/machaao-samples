@@ -10,7 +10,7 @@ with an aim to aid developers looking to build and monetize deeply personalized 
 
    Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
 
-Our Story
+The Problem
 =============================================================================
 The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
 
