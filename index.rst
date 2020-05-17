@@ -74,17 +74,17 @@ without any new installation required on the user side.
 
 Receiving Messages
 =============================================================================
-What is a Webhook?
+Understanding Webhooks
 -----------------------------------------------------------------------------
 Webhook is a REST endpoint url which denotes your custom functions / callbacks.
 
 This is the end point which will receive any incoming messages destined for your bot.
 
-What is a Message Payload?
+Message Payload
 -----------------------------------------------------------------------------
 A message payload is a JSON representation of an incoming message sent by the end user.
 
-Raw Incoming Message Payload
+Encrypted Incoming Message Payload
 -----------------------------------------------------------------------------
 Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
 
@@ -106,7 +106,6 @@ Let's quickly go through the sample representation of the decrypted incoming mes
 * client: the partner app client id.
 * version: android / web sdk client version
 * silent: if silent is true, don't reply back to the request.
-
 
 ::
 
