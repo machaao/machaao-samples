@@ -72,7 +72,7 @@ without any new installation required on the user side.
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
-Receiving Messages
+Receiving Text Messages
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
