@@ -72,7 +72,7 @@ without any new installation required on the user side.
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
-Receiving Text Messages
+Receiving Messages from Users
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
@@ -86,7 +86,9 @@ A message payload is a JSON representation of an incoming message sent by the en
 
 Encrypted Incoming Message Payload
 -----------------------------------------------------------------------------
-Below is the JSON representation of the raw incoming message that your webhook will receive encrypted using HS512 Algorithm.
+The incoming messages that your webhook will receive are encrypted using HS512 algorithm with your token as the key.
+
+Below is the JSON representation of the raw incoming message.
 
 ::
 
@@ -95,7 +97,9 @@ Below is the JSON representation of the raw incoming message that your webhook w
 
 Decrypting Incoming Message Payload
 -----------------------------------------------------------------------------
-To decrypt the incoming payload, you can use the open source JWT.io libraries available for all major programming languages
+Decrypt the incoming payload with the secret_key provided.
+
+You can use the open source JWT.io libraries available for all major programming languages
 
 Let's quickly go through the sample representation of the decrypted incoming message object payload
 
@@ -133,8 +137,12 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Sending Messages
+Send a Text Message
 =============================================================================
+
+
+
+
 Sending Text
 -----------------------------------------------------------------------------
 Coming Soon
