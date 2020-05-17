@@ -139,17 +139,66 @@ Let's quickly go through the sample representation of the decrypted incoming mes
 
 Sending Messages to Users
 =============================================================================
-
-
+Sending a outgoing message to users can be done by the usage of our core Send API
 
 
 Sending Text
 -----------------------------------------------------------------------------
-Coming Soon
+Below is an example CURL request to send a message to a particular user id using our Core Messaging APIs.
+
+::
+
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    --header 'api_token: f3aee970-9545-11ea-9119-8188df620b76' \
+    --header 'Content-Type: application/json' \
+    --header 'Content-Type: text/plain' \
+    --data-raw '{
+      "users":["<!--- USER ID -->"], // one ore more (max up to 10)
+      "message":{
+          "text": "I am a good bot",
+          "quick_replies": [{
+            "content_type": "text",
+            "title": "Hi",
+            "payload": "hi"
+          }]
+       }
+    }'
+
 
 Sending a Media Attachment
 -----------------------------------------------------------------------------
-Coming Soon
+Below is an example CURL request to send a message attachment to a particular user id using our Core Messaging APIs.
+
+::
+
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    --header 'api_token: f3aee970-9545-11ea-9119-8188df620b76' \
+    --header 'Content-Type: application/json' \
+    --header 'Content-Type: text/plain' \
+    --data-raw '{
+      "users":["<!-- MACHAAO-USER-ID -->"],
+      "message":{
+          "attachment":{
+             "type":"template",
+             "payload":{
+                "template_type":"generic",
+                "elements":[
+                   {
+                      "title": "Test #786 - Duffle Bag + 200 Machaao Credits",
+                      "subtitle":"Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.",
+                      "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                   }
+                ]
+             }
+          },
+          "quick_replies": [{
+            "content_type": "text",
+            "title": "Hi",
+            "payload": "hi"
+          }]
+       }
+    }'
+
 
 Sending a List of Media Attachments
 -----------------------------------------------------------------------------
@@ -182,6 +231,14 @@ a developer suite looking to build deeply personalized apps:
 Partners
 =============================================================================
 Coming Soon
+
+Active Contributors
+=============================================================================
+Coming Soon
+
+Join our Gitter Community
+=============================================================================
+
 
 .. Indices and tables
 .. ==================
