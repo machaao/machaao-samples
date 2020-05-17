@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 import sphinx_rtd_theme
 
-project = 'MessengerX'
-copyright = '2020, MessengerX.io'
+project = 'MessengerX.io'
+copyright = 'Copyright 2020, MessengerX.io'
 author = 'Harshal Dhir'
 
 # The full version, including alpha/beta/rc tags
