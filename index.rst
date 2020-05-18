@@ -122,10 +122,10 @@ Let's quickly go through the sample representation of the decrypted incoming mes
                "action_type":"get_started"
             },
             "user":{
-               "userId":"JzBt502kWS",
+               "userId":"<!-- USER_ID -->",
                "creation_time":1589518339556,
-               "device_id":"c311b145ed6a96d6",
-               "email":"c311b145ed6a96d6@machaao.com",
+               "device_id":"311b145ed6a96d6",
+               "email":"<c11b145ed6a96d6>@machaao.com",
                "timezone":"-7.0"
             },
             "sender":"dWnjre9rTr65ZeiOmrY1oU",
@@ -149,7 +149,7 @@ Below is an example CURL request to send a message / response to a particular us
 ::
 
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
-    --header 'api_token: f3aee970-9545-11ea-9119-8188df620b76' \
+    --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
@@ -172,7 +172,7 @@ Below is an example CURL request to send a message attachment to a particular us
 ::
 
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
-    --header 'api_token: f3aee970-9545-11ea-9119-8188df620b76' \
+    --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
@@ -206,7 +206,7 @@ Below is an example CURL request to send a list of attachments / media elements 
 ::
 
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
-    --header 'api_token: f3aee970-9545-11ea-9119-8188df620b76' \
+    --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
