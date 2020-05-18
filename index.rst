@@ -238,7 +238,7 @@ Below is an example CURL request to send a list of attachments / media elements 
        }
     }'
 
-Additional Perks for Developers
+Bonus for Developers
 =============================================================================
 In addition to the massive savings on marketing costs, the platform also offers
 a developer suite looking to build deeply personalized apps:
