@@ -62,8 +62,7 @@ The MessengerX Platform is FREE for developers looking to build highly engaging 
 
 What is a Chatbot?
 =============================================================================
-Messaging Apps or ChatBots are light weight programs that run inside an existing app
-without any new installation required on the user side.
+Messaging Apps or ChatBots are light weight programs that one can talk to carry quick tasks.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
    :scale: 25 %
@@ -237,6 +236,14 @@ Below is an example CURL request to send a list of attachments / media elements 
           }]
        }
     }'
+
+Deep Personalization
+=============================================================================
+
+User Tagging
+-----------------------------------------------------------------------------
+Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
+
 
 Bonus for Developers
 =============================================================================
