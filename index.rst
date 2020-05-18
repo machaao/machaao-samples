@@ -142,7 +142,7 @@ Outgoing Messages to Specific User(s)
 Sending a outgoing message to users can be done by the usage of our core Send API
 
 
-Sending Text
+Sending a Text Message
 -----------------------------------------------------------------------------
 Below is an example CURL request to send a message to a particular user id using our Core Messaging APIs.
 
