@@ -252,7 +252,7 @@ Additional Perks for Developers
 In addition to the massive savings on marketing costs, the platform also offers
 a developer suite looking to build deeply personalized apps:
 
-* Rich Messaging Support via Core Messaging API
+* Rich Messaging Support via On Demand Messaging API
 * Deep Personalization via Tagging API
 * Deeper Engagement via Announcement API
 * FREE Hosting for your chat bot (Subjected to Approval)
