@@ -105,7 +105,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
 
 * messaging: list of incoming message actions
 * message_data: details about the nature of data sent.
-* user: basic user details about the user requesting information.
+* user: basic user info details about the user associated with the message.
 * sender: the unique device id of the user.
 * client: the partner app client id.
 * version: android / web sdk client version
@@ -137,9 +137,9 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Outgoing Messages aka Responses
+Outgoing Messages
 =============================================================================
-Sending a outgoing message to user(s) can be done by the usage of our Core Messaging APIs as demonstrated below
+Sending a outgoing message in response to user's input can be done by the usage of our Core Messaging APIs as demonstrated below
 
 
 Sending a Text Message Response
