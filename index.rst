@@ -274,6 +274,7 @@ Coming Soon
 
 Join our Gitter Community
 =============================================================================
+Coming Soon
 
 
 .. Indices and tables
