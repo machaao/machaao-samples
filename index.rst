@@ -80,7 +80,7 @@ Webhook is a REST endpoint url which denotes your custom functions / callbacks.
 
 This is the end point which will receive any incoming messages destined for your bot.
 
-Message Payload
+Understanding Message Payloads
 -----------------------------------------------------------------------------
 A message payload is a JSON representation of an incoming message sent by the end user.
 
@@ -137,7 +137,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Outgoing Messages to Specific User(s)
+Outgoing Messages
 =============================================================================
 Sending a outgoing message to users can be done by the usage of our core Send API
 
