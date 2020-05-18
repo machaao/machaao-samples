@@ -137,14 +137,14 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Outgoing Messages
+Outgoing Messages aka Responses
 =============================================================================
-Sending a outgoing message to users can be done by the usage of our core Send API
+Sending a outgoing message to user(s) can be done by the usage of our Core Messaging APIs as demonstrated below
 
 
-Sending a Text Message
+Sending a Text Message Response
 -----------------------------------------------------------------------------
-Below is an example CURL request to send a message to a particular user id using our Core Messaging APIs.
+Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
 
 ::
 
