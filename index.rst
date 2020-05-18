@@ -238,15 +238,6 @@ Below is an example CURL request to send a list of attachments / media elements 
        }
     }'
 
-
-
-Small Businesses / Enterprise
-=============================================================================
-* Do you have an existing facebook messenger chatbot?
-* Own your data with our SDKs
-* Make your existing chatbot / platform work inside your client android app or website within hours.
-
-
 Additional Perks for Developers
 =============================================================================
 In addition to the massive savings on marketing costs, the platform also offers
@@ -261,8 +252,13 @@ a developer suite looking to build deeply personalized apps:
 * Transactional Wallet API
 * Guaranteed Message Processing (Premium)
 * Admin Dashboard (Premium)
-* UI Bot Designer (Premium)
 
+Small Businesses / Enterprise
+=============================================================================
+* Do you have an existing facebook messenger chatbot?
+* Own your data with our SDKs
+* Make your existing chatbot / platform work inside your client android app or website within hours.
+* UI Bot Designer (Premium)
 
 Partners
 =============================================================================
