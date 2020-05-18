@@ -30,9 +30,9 @@ who are looking to build deeply personalized chat bots.
 Why MessengerX.io?
 =============================================================================
 With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumers
-in addition millions of active devices in our collective app ecosystem.
+in addition to millions of active devices in our collective app ecosystem.
 
-We see there is a gap between good chat bots and end users due to the nature of current messaging eco-systems.
+We see a gap between good chat bots and end users due to the operating nature of current messaging eco-systems.
 
 We aim to bridge this gap between "great" chatbots and end users!
 
