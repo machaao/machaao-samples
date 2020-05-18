@@ -139,7 +139,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
 
 Outgoing Messages
 =============================================================================
-Sending a outgoing message in response to user's input can be done by the usage of our Core Messaging APIs as demonstrated below
+Sending a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
 
 
 Sending a Text Message Response
@@ -153,7 +153,7 @@ Below is an example CURL request to send a message / response to a particular us
     --header 'Content-Type: application/json' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
-      "users":["<!--- USER ID -->"], // one ore more (max up to 10)
+      "users":["<!--- UNIQUE_USER_ID -->"],
       "message":{
           "text": "I am a good bot",
           "quick_replies": [{
@@ -176,7 +176,7 @@ Below is an example CURL request to send a message attachment to a particular us
     --header 'Content-Type: application/json' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
-      "users":["<!-- MACHAAO-USER-ID -->"],
+      "users":["<!-- UNIQUE_USER_ID -->"],
       "message":{
           "attachment":{
              "type":"template",
@@ -210,7 +210,7 @@ Below is an example CURL request to send a list of attachments / media elements 
     --header 'Content-Type: application/json' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
-      "users":["<!-- MACHAAO-USER-ID -->"],
+      "users":["<!-- UNIQUE_USER_ID -->"],
       "message":{
           "attachment":{
              "type":"template",
