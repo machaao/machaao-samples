@@ -238,13 +238,19 @@ Below is an example CURL request to send a list of attachments / media elements 
        }
     }'
 
-Deep Personalization
+Personalization - User Tagging
 =============================================================================
+Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
 
-User Tagging
+Tag a User
 -----------------------------------------------------------------------------
-Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized response, etc.
+Annotate or tag a user for deeper personalization.
 
+::
+
+    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tags/<USER_ID>' \
+    --header 'api_token: <API_TOKEN>' \
+    --header 'Content-Type: application/json'
 
 Bonus for Developers
 =============================================================================
