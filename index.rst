@@ -18,7 +18,8 @@ Facebook's Messenger Platform, so far has been the only viable option available 
 Also, let's not forget the abilities of the Messenger Platform,
 which are way ahead in our opinion than currently supported by Twitter, WhatsApp.
 
-But that being said, the reach and the engagement has been severely impacted by the introduction of changes in Facebook Messenger Platform Policy
+But that being said, the reach and the engagement of your chatbot would be severely impacted
+by the introduction of some core changes in Facebook Messenger Platform Policy
 as well as the removal of the Discover Feature.
 
 Even, if you were to look to WhatsApp as an alternative,
@@ -48,7 +49,7 @@ How it Works?
 
 When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s).
 
-The following set of events sequence should happen when a message is received destined for you bot.
+The following set of events sequence should take place when an incoming message is received destined for you bot.
 
 * Our servers would route the incoming messages to Your Webhook or CHAT BOT URL, where your messaging app or chatbot is hosted.
 
@@ -71,7 +72,7 @@ Messaging Apps or ChatBots are light weight programs that one can talk to carry 
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
-Incoming Messages
+Receiving Messages
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
@@ -136,7 +137,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Outgoing Messages
+Sending Messages
 =============================================================================
 Sending a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
 
@@ -242,7 +243,7 @@ Deep Personalization
 
 User Tagging
 -----------------------------------------------------------------------------
-Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
+Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized response, etc.
 
 
 Bonus for Developers
