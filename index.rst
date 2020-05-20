@@ -95,6 +95,8 @@ You can update your bot url anytime as shown below
         "displayName": "<YOUR BOT NAME>"
         }'
 
+This url which would start receiving messages from end customers, once activated.
+
 Understanding Message Payloads
 -----------------------------------------------------------------------------
 A message payload is a JSON representation of an incoming message sent by the end user.
