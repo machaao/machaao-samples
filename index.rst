@@ -86,7 +86,7 @@ You can update your bot url anytime as shown below
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/bots/<YOUR API-TOKEN> \
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/bots/<YOUR API-TOKEN>' \
     --header 'api_token: <YOUR API-TOKEN>' \
     --header 'Content-Type: application/json' \
     --data-raw '{
