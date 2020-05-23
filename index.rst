@@ -255,7 +255,7 @@ Below is an example CURL request to send a list of attachments / media elements 
        }
     }'
 
-Personalization & Tagging
+Personalization & Tagging (In Progress)
 =============================================================================
 Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
 
@@ -269,21 +269,8 @@ Annotate or tag a user for deeper personalization.
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json'
 
-Headless CMS
-=============================================================================
-Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
 
-Tag a User
------------------------------------------------------------------------------
-Annotate or tag a user for deeper personalization.
-
-::
-
-    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tags/<USER_ID>' \
-    --header 'api_token: <API_TOKEN>' \
-    --header 'Content-Type: application/json'
-
-Sending Announcements
+Sending Announcements (In Progress)
 =============================================================================
 Sending a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
 
@@ -309,6 +296,21 @@ Below is an example CURL request to send a message / response to a particular us
           }]
        }
     }'
+
+
+Headless CMS (In Progress)
+=============================================================================
+Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
+
+Insert new content
+-----------------------------------------------------------------------------
+Annotate or tag a user for deeper personalization.
+
+::
+
+    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tags/<USER_ID>' \
+    --header 'api_token: <API_TOKEN>' \
+    --header 'Content-Type: application/json'
 
 
 
