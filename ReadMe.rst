@@ -1,6 +1,17 @@
 Get Started
 =============================================================================
 
+Requirements
+---------------------
+JDK 8
+Latest Android SDK tools
+Latest Android platform tools
+Android SDK 21 or newer
+AndroidX
+
+Overview
+---------------------
+
 **basic\_sample\_bot** : This is an echo bot which shows the basic usage
 of the MACHAAO send message API, it contains the following code base to
 get you started

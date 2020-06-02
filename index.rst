@@ -1,6 +1,6 @@
 What is MessengerX.io? (Draft In Progress)
 =============================================================================
-MessengerX.io aim to aid developers looking to build and monetize deeply personalized messaging experiences.
+MessengerX.io aim to aid developers looking to build and monetize deeply personalized chat experiences.
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
@@ -26,7 +26,7 @@ Even, if you were to look to WhatsApp as an alternative,
 there is a marketing spend associated with promoting the phone number.
 
 Such marketing spend numbers are generally not in the reach of independent developers or small businesses
-who are looking to build deeply personalized chat bots.
+who are looking to build deeply personalized chat apps.
 
 Why MessengerX.io?
 =============================================================================
