@@ -80,23 +80,6 @@ Webhook is a REST endpoint url which denotes your custom functions / callbacks.
 
 This is the end point which will receive any incoming messages destined for your bot.
 
-Update your Webhook
-------------------------------------------------------------------------------
-You can update your bot url anytime as shown below
-
-::
-
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/bots/<YOUR API-TOKEN>' \
-    --header 'api_token: <YOUR API-TOKEN>' \
-    --header 'Content-Type: application/json' \
-    --data-raw '{
-        "url": "<YOUR BOT WEBHOOK URL>",
-        "description": "<YOUR BOT DESCRIPTION>",
-        "displayName": "<YOUR BOT NAME>"
-        }'
-
-This url which would start receiving messages from end customers, once activated.
-
 Understanding Message Payloads
 -----------------------------------------------------------------------------
 A message payload is a JSON representation of an incoming message sent by the end user.
