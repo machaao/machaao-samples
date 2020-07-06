@@ -260,6 +260,31 @@ Annotate or Tag a user for deeper personalization.
       "displayName": "India"
     }'
 
+Un-tag a User
+-----------------------------------------------------------------------------
+Un-tag a user for deeper personalization.
+
+::
+
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/users/tag/<USER_ID>' \
+    --header 'api_token: <API_TOKEN>' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+      "tag": "india",
+      "status": 0,
+      "displayName": "India"
+    }'
+
+Get all the Active Tags for a Particular User in Context
+-----------------------------------------------------------------------------
+Get all the tags for deeper personalization use cases.
+
+::
+
+    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tag/<USER_ID>' \
+    --header 'api_token: <API_TOKEN>' \
+    --header 'Content-Type: application/json'
+
 
 Sending Announcements (In Progress)
 =============================================================================
