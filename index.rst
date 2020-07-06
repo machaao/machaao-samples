@@ -238,7 +238,7 @@ Below is an example CURL request to send a list of attachments / media elements 
        }
     }'
 
-Personalization & Engagement (In Progress)
+Personalization, Tagging & User Engagement (In Progress)
 =============================================================================
 The personalization and engagement api is the core base to build sophisticated re-engaging bots.
 
