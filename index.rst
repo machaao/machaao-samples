@@ -137,9 +137,9 @@ Let's quickly go through the sample representation of the decrypted incoming mes
    }
  }
 
-Sending Responses
+Sending On-Demand Responses
 =============================================================================
-Sending a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
+Send a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
 
 
 Sending a Text Message Response
@@ -286,7 +286,7 @@ Get all the tags for deeper personalization use cases.
     --header 'Content-Type: application/json'
 
 
-Sending Tag based Announcements
+Sending Subscription Messages
 =============================================================================
 Sending a broadcasts or an announcements in order to re-engage your bot user.
 
