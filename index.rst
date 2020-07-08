@@ -238,7 +238,7 @@ Below is an example CURL request to send a list of attachments / media elements 
        }
     }'
 
-Personalization, Tagging & User Engagement (In Progress)
+Personalization, Tagging & User Engagement
 =============================================================================
 The personalization and engagement api is the core base to build sophisticated re-engaging bots.
 
@@ -286,22 +286,21 @@ Get all the tags for deeper personalization use cases.
     --header 'Content-Type: application/json'
 
 
-Sending Announcements (In Progress)
+Sending Tag based Announcements
 =============================================================================
-Sending a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
+Sending a broadcasts or an announcements in order to re-engage your bot user.
 
-
-Sending a Text Message Response
+Sample CURL Command
 -----------------------------------------------------------------------------
 Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/announce' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
-      "users":["<!--- UNIQUE_USER_ID -->"],
+      "tags":["india", "pakistan", "usa"],
       "message":{
           "text": "I am a good bot",
           "quick_replies": [{
@@ -313,19 +312,33 @@ Below is an example CURL request to send a message / response to a particular us
     }'
 
 
-Headless CMS (In Progress)
+Headless CMS
 =============================================================================
 Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
 
 Insert new content
 -----------------------------------------------------------------------------
-Annotate or tag a user for deeper personalization.
+Auto-Annotate and insert content for your chat app.
 
 ::
 
-    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tags/<USER_ID>' \
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/content' \
     --header 'api_token: <API_TOKEN>' \
-    --header 'Content-Type: application/json'
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "url": "https://www.youtube.com/watch?v=5UmM-tclggg",
+        "tags": ["india", "pakistan", "bangladesh"]
+    }'
+
+Search API
+-----------------------------------------------------------------------------
+Allows you to perform search content for your chat app by query based in a paginated way.
+
+::
+
+   curl --location --request GET 'https://ganglia-dev.machaao.com/v1/content/search?q=ipl&limit=10&skip=0' \
+   --header 'api_token: <API_TOKEN>' \
+   --header 'Content-Type: application/json'
 
 
 
