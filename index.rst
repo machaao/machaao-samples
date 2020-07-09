@@ -376,15 +376,12 @@ Small Businesses / Enterprise
 * Do you have an existing facebook messenger chatbot?
 * Own your data with our SDKs
 * Make your existing chatbot / platform work inside your client android app or website within hours.
-* UI Bot Designer (Premium)
+* Conversational Bot Designer (Premium)
 
-Partners
+Other Resources
 =============================================================================
-Coming Soon
-
-Active Contributors
-=============================================================================
-Coming Soon
+Partner Deck: https://docsend.com/view/jxdbrcf
+Intro Article: https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-message-harshal-dhir
 
 Join our Gitter Community
 =============================================================================
