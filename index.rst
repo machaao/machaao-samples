@@ -2,16 +2,18 @@ What is MessengerX.io? (Draft In Progress)
 =============================================================================
 MessengerX.io aim to aid developers looking to build and monetize deeply personalized chat experiences.
 
-.. figure:: _static/images/my_bots.png
-   :scale: 25 %
-   :align: center
-   :alt: MessengerX.io - Bots everywhere!
+Why MessengerX.io?
+=============================================================================
+With our unique learnings in the conversational space from processing over 2.5B+ messages
+from or to end users, we would like we know a thing or two about making good chat apps :)
 
-   Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
+We see a gap between good messaging apps and end users due to the operating nature of current messaging eco-systems.
+
+We aim to bridge this gap between "great" chat apps and end users!
 
 The Problem
 =============================================================================
-The issue of customer acquisition has been plaguing the chatbot industry for sometime now.
+The issue of customer acquisition has been plaguing the chat apps industry for sometime now.
 
 Facebook's Messenger Platform, so far has been the only viable option available to truly get any kind of “traction” on your consumer facing bot.
 
@@ -28,14 +30,6 @@ there is a marketing spend associated with promoting the phone number.
 Such marketing spend numbers are generally not in the reach of independent developers or small businesses
 who are looking to build deeply personalized chat apps.
 
-Why MessengerX.io?
-=============================================================================
-With our unique learnings in the conversational space from processing over 2.5B+ messages from end consumers
-in addition to millions of active devices in our collective app ecosystem.
-
-We see a gap between good chat bots and end users due to the operating nature of current messaging eco-systems.
-
-We aim to bridge this gap between "great" chatbots and end users!
 
 How it Works?
 =============================================================================
@@ -59,7 +53,16 @@ As Darren Yau - Our lead chat bot developer puts it aptly,
 “If you already have a Facebook Messenger based chatbot you can seamlessly launch
 and expose your bot on millions of android devices within days if not hours!”
 
-The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
+The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chat apps.
+
+In fact, you earn per incoming message your bots process!
+
+.. figure:: _static/images/my_bots.png
+   :scale: 25 %
+   :align: center
+   :alt: MessengerX.io - Everyday Chat Apps for Everyone
+
+   Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
 
 What is a Chatbot?
 =============================================================================
@@ -71,6 +74,7 @@ Messaging Apps or ChatBots are light weight programs that one can talk to carry 
    :alt: Ganesha - Your Horoscope Assistant
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
+
 
 Receiving Messages
 =============================================================================
@@ -339,6 +343,17 @@ Allows you to perform search content for your chat app by query based in a pagin
    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/content/search?q=ipl&limit=10&skip=0' \
    --header 'api_token: <API_TOKEN>' \
    --header 'Content-Type: application/json'
+
+
+Open Source Samples
+=============================================================================
+Below are some samples which will help get you started
+
+
+RASA Sample
+-----------------------------------------------------------------------------
+https://github.com/machaao/rasa-sample-nlu-bot
+
 
 
 
