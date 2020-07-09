@@ -359,17 +359,16 @@ https://github.com/machaao/rasa-sample-nlu-bot
 
 Bonus for Developers
 =============================================================================
-In addition to the massive savings on marketing costs, the platform also offers
-a developer suite looking to build deeply personalized apps:
+In addition to the massive savings on marketing and infrastructure costs, the platform also offers
+multiple other Rest APIs dor developers looking to build deeply personalized super chat apps:
 
 * Rich Messaging Support via On Demand Messaging API
 * Deep Personalization via Tagging API
-* Deeper Engagement via Announcement API
+* Auto ML based Engagement via Announcement API
+* Data Capture API (Subjected to Approval)
+* Transactional Wallet API (Subjected to Approval)
 * FREE Hosting for your chat bot (Subjected to Approval)
-* Headless Conversational CMS API
-* Data Capture API
-* Transactional Wallet API
-* Guaranteed Message Processing (Premium)
+* Guaranteed Message Processing (Subjected to Approval)
 * Admin Dashboard (Premium)
 
 Small Businesses / Enterprise
