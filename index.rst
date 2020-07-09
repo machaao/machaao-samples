@@ -1,6 +1,7 @@
 What is MessengerX.io? (Draft In Progress)
 =============================================================================
-MessengerX.io aim to aid developers looking to build and monetize deeply personalized chat experiences.
+MessengerX.io is a joint venture between AppyHigh and MACHAAO with an aim to aid developers
+looking to build and monetize deeply personalized chat experiences.
 
 Why MessengerX.io?
 =============================================================================
