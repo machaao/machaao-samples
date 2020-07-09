@@ -66,6 +66,11 @@ Messaging Apps or ChatBots are light weight programs that one can talk to carry 
 
    Daily Horoscope Assistant (Powered by GaneshaSpeaks.com)
 
+Get Started
+=============================================================================
+Signup and Get your FREE API Token to get started
+
+Signup @ https://portal.messengerx.io
 
 Receiving Messages
 =============================================================================
