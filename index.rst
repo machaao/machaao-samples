@@ -15,16 +15,11 @@ The Problem
 =============================================================================
 The issue of customer acquisition has been plaguing the chat apps industry for sometime now.
 
-Facebook's Messenger Platform, so far has been the only viable option available to truly get any kind of “traction” on your consumer facing bot.
-
-Also, let's not forget the abilities of the Messenger Platform,
-which are way ahead in our opinion than currently supported by Twitter, WhatsApp.
+Facebook's Messenger Platform, so far has been the only viable option available to truly get any kind of “organic” traction on your consumer facing bot.
 
 But that being said, the reach and the engagement of your chatbot would be severely impacted
 by the introduction of some core changes in Facebook Messenger Platform Policy
-as well as the removal of the Discover Feature.
-
-Even, if you were to look to WhatsApp as an alternative,
+as well as the removal of the "Discover" Feature. Even, if you were to look to WhatsApp as an alternative,
 there is a marketing spend associated with promoting the phone number.
 
 Such marketing spend numbers are generally not in the reach of independent developers or small businesses
@@ -49,13 +44,9 @@ The following set of events sequence should take place when an incoming message 
 
 * Using the Send Message API, the mini app or the chat bot can then respond to the person directly on the Partner App via our Platform APIs
 
-As Darren Yau - Our lead chat bot developer puts it aptly,
-“If you already have a Facebook Messenger based chatbot you can seamlessly launch
-and expose your bot on millions of android devices within days if not hours!”
-
 The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chat apps.
 
-In fact, you earn per incoming message your bots process!
+In fact, you earn 💰 per incoming message your bots process!
 
 .. figure:: _static/images/my_bots.png
    :scale: 25 %
