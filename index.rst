@@ -38,7 +38,7 @@ who are looking to build deeply personalized chat apps.
 How it Works?
 =============================================================================
 
-.. figure:: _static/images/how_it_works.png
+.. figure:: _static/images/platform_overview.png
    :scale: 100 %
    :align: center
    :alt: How it Works - MessengerX.io
