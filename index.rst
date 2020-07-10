@@ -42,7 +42,7 @@ How it Works?
 
 .. figure:: _static/images/platform_overview.png
    :width: 1429px
-   :height: 678px
+   :height: 349px
    :align: center
    :alt: MessengerX.io - Overview
 
