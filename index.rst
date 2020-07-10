@@ -46,7 +46,7 @@ How it Works?
    :align: center
    :alt: MessengerX.io - Overview
 
-    How it Works? - MessengerX.io
+   How it Works? - MessengerX.io
 
 When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s).
 
