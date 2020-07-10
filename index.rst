@@ -5,6 +5,14 @@ looking to build and monetize deeply personalized chat experiences.
 
 Why MessengerX.io?
 =============================================================================
+
+.. figure:: _static/images/my_bots.png
+   :scale: 25 %
+   :align: center
+   :alt: MessengerX.io - Everyday Chat Apps for Everyone
+
+   Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
+
 With our unique learnings in the conversational space from processing over 2.5B+ messages
 from or to end users, we would like to claim that we know a thing or two about making good chat apps :)
 
@@ -49,12 +57,10 @@ The MessengerX Platform is FREE for developers looking to build highly engaging 
 
 In fact, you earn 💰 per incoming message your bots process!
 
-.. figure:: _static/images/my_bots.png
-   :scale: 25 %
-   :align: center
-   :alt: MessengerX.io - Everyday Chat Apps for Everyone
+Learn more @ https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-message-harshal-dhir
 
-   Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
+
+
 
 What is a Chatbot?
 =============================================================================
@@ -378,9 +384,6 @@ Small Businesses / Enterprise
 Other Resources
 =============================================================================
 Partner Deck: https://docsend.com/view/jxdbrcf
-
-Intro Article: https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-message-harshal-dhir
-
 
 Join our Gitter Community
 =============================================================================
