@@ -6,7 +6,7 @@ looking to build and monetize deeply personalized chat experiences.
 Why MessengerX.io?
 =============================================================================
 With our unique learnings in the conversational space from processing over 2.5B+ messages
-from or to end users, we would like we know a thing or two about making good chat apps :)
+from or to end users, we would like to claim that we know a thing or two about making good chat apps :)
 
 We see a gap between good messaging apps and end users due to the operating nature of current messaging eco-systems.
 
