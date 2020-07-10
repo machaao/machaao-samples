@@ -40,8 +40,8 @@ How it Works?
 
 .. figure:: _static/images/platform_overview.png
    :scale: 100 %
-   :width: 1429
-   :height: 678
+   :width: 1429px
+   :height: 678px
    :align: center
    :alt: How it Works - MessengerX.io
 
