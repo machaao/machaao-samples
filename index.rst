@@ -7,8 +7,8 @@ Why MessengerX.io?
 =============================================================================
 
 .. figure:: _static/images/my_bots.png
-   :scale: 25 %
    :align: center
+   :figwidth: 75%
    :alt: MessengerX.io - Everyday Chat Apps for Everyone
 
    Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
@@ -69,7 +69,7 @@ What is a Chatbot?
 Messaging Apps or ChatBots are light weight programs that one can talk to carry quick tasks.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
-   :scale: 25 %
+   :figwidth: 75%
    :align: center
    :alt: Ganesha - Your Horoscope Assistant
 
