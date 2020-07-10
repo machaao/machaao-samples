@@ -11,9 +11,9 @@ Why MessengerX.io?
    :figwidth: 50%
    :height: 375px
    :width: 225px
-   :alt: MessengerX.io - Everyday Chat Apps for Everyone
+   :alt: MessengerX.io - Everyday Chat Apps for You
 
-   Multi Bot SDK - v0.751 - Beta - Your Personal Bot Store
+   MessengerX.io - Everyday Chat Apps for You
 
 With our unique learnings in the conversational space from processing over 2.5B+ messages
 from or to end users, we would like to claim that we know a thing or two about making good chat apps :)
