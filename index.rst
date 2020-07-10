@@ -44,6 +44,7 @@ How it Works?
    :height: 678px
    :align: center
    :alt: MessengerX.io - Overview
+   :figwidth: 75%
 
    How it Works? - MessengerX.io
 
