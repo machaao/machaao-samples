@@ -48,7 +48,7 @@ How it Works?
 
    How it Works? - MessengerX.io
 
-When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s).
+When a user sends a message to your bot through Platform SDKs integrated inside publisher or partner app(s).
 
 The following set of events sequence should take place when an incoming message is received destined for you bot.
 
