@@ -378,7 +378,9 @@ Small Businesses / Enterprise
 Other Resources
 =============================================================================
 Partner Deck: https://docsend.com/view/jxdbrcf
+
 Intro Article: https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-message-harshal-dhir
+
 
 Join our Gitter Community
 =============================================================================
