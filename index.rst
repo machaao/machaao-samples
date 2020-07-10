@@ -45,9 +45,8 @@ How it Works?
    :height: 678px
    :align: center
    :alt: MessengerX.io - Overview
-   :figwidth: 75%
 
-   How it Works? - MessengerX.io
+    How it Works? - MessengerX.io
 
 When a person sends a message to your bot through MessengerX SDKs integrated inside publisher or partner app(s).
 
