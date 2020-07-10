@@ -43,7 +43,7 @@ How it Works?
    :width: 1429px
    :height: 678px
    :align: center
-   :alt: How it Works - MessengerX.io
+   :alt: MessengerX.io - Overview
 
    How it Works? - MessengerX.io
 
