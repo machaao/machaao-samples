@@ -2,6 +2,15 @@ What is MessengerX.io?
 =============================================================================
 MessengerX.io is a marketplace for everyday chat apps.
 
+.. figure:: _static/images/my_bots.png
+   :align: center
+   :figwidth: 75%
+   :height: 375px
+   :width: 225px
+   :alt: MessengerX.io - Everyday Chat Apps for You
+
+   MessengerX.io - Everyday Chat Apps for You
+
 A joint venture between AppyHigh and MACHAAO with an aim to aid developers
 looking to build and monetize deeply personalized chat experiences.
 
@@ -23,16 +32,6 @@ who are looking to build deeply personalized chat apps.
 
 Why MessengerX.io?
 =============================================================================
-
-.. figure:: _static/images/my_bots.png
-   :align: center
-   :figwidth: 75%
-   :height: 375px
-   :width: 225px
-   :alt: MessengerX.io - Everyday Chat Apps for You
-
-   MessengerX.io - Everyday Chat Apps for You
-
 
 With our unique learnings in the conversational space from processing over 2.5B+ messages
 from or to end users.
