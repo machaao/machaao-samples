@@ -17,8 +17,11 @@ Why MessengerX.io?
 
    MessengerX.io - Everyday Chat Apps for You
 
+
 With our unique learnings in the conversational space from processing over 2.5B+ messages
-from or to end users. We would like to claim that we do know a thing or two about making good chat apps :)
+from or to end users.
+
+We would like to claim that we do know a thing or two about making good chat apps :)
 
 We also see an evidential gap between good messaging or chat apps and end users
 due to the operating nature of current messaging eco-systems.
