@@ -5,6 +5,22 @@ MessengerX.io is a marketplace for everyday chat apps.
 A joint venture between AppyHigh and MACHAAO with an aim to aid developers
 looking to build and monetize deeply personalized chat experiences.
 
+The Problem
+=============================================================================
+The issue of customer acquisition has been plaguing the chat apps industry for sometime now.
+
+Facebook's Messenger Platform, so far has been the only viable option available
+to truly get any kind of “organic” traction on your consumer facing bot.
+
+But that being said, the reach and the engagement of your chat app would be severely impacted
+by the introduction of some core changes in Facebook Messenger Platform Policy
+as well as the removal of the "Discover" Feature.
+
+Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the "phone number".
+
+Such marketing spend numbers are generally not in the reach of independent developers or even small businesses
+who are looking to build deeply personalized chat apps.
+
 Why MessengerX.io?
 =============================================================================
 
@@ -27,23 +43,6 @@ We also see an evidential gap between good messaging or chat apps and end users
 due to the operating nature of current messaging eco-systems.
 
 We aim to bridge this gap between "great" chat apps and end users!
-
-The Problem
-=============================================================================
-The issue of customer acquisition has been plaguing the chat apps industry for sometime now.
-
-Facebook's Messenger Platform, so far has been the only viable option available
-to truly get any kind of “organic” traction on your consumer facing bot.
-
-But that being said, the reach and the engagement of your chat app would be severely impacted
-by the introduction of some core changes in Facebook Messenger Platform Policy
-as well as the removal of the "Discover" Feature.
-
-Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the "phone number".
-
-Such marketing spend numbers are generally not in the reach of independent developers or even small businesses
-who are looking to build deeply personalized chat apps.
-
 
 How it Works?
 =============================================================================
