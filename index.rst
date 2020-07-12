@@ -16,9 +16,10 @@ Why MessengerX.io?
    MessengerX.io - Everyday Chat Apps for You
 
 With our unique learnings in the conversational space from processing over 2.5B+ messages
-from or to end users, we would like to claim that we know a thing or two about making good chat apps :)
+from or to end users. We would like to claim that we do know a thing or two about making good chat apps :)
 
-We see a gap between good messaging apps and end users due to the operating nature of current messaging eco-systems.
+We also see an evidential gap between good messaging or chat apps and end users
+due to the operating nature of current messaging eco-systems.
 
 We aim to bridge this gap between "great" chat apps and end users!
 
@@ -26,14 +27,16 @@ The Problem
 =============================================================================
 The issue of customer acquisition has been plaguing the chat apps industry for sometime now.
 
-Facebook's Messenger Platform, so far has been the only viable option available to truly get any kind of “organic” traction on your consumer facing bot.
+Facebook's Messenger Platform, so far has been the only viable option available
+to truly get any kind of “organic” traction on your consumer facing bot.
 
-But that being said, the reach and the engagement of your chatbot would be severely impacted
+But that being said, the reach and the engagement of your chat app would be severely impacted
 by the introduction of some core changes in Facebook Messenger Platform Policy
-as well as the removal of the "Discover" Feature. Even, if you were to look to WhatsApp as an alternative,
-there is a marketing spend associated with promoting the phone number.
+as well as the removal of the "Discover" Feature.
 
-Such marketing spend numbers are generally not in the reach of independent developers or small businesses
+Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the "phone number".
+
+Such marketing spend numbers are generally not in the reach of independent developers or even small businesses
 who are looking to build deeply personalized chat apps.
 
 
@@ -62,12 +65,9 @@ In fact, you earn 💰 per incoming message your bots process!
 
 Learn more @ https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-message-harshal-dhir
 
-
-
-
-What is a Chatbot?
+What are Chatbots?
 =============================================================================
-Messaging Apps or ChatBots are light weight programs that one can talk to carry quick tasks.
+Chat Apps aka Chat Bots are conversational programs that one can talk to carry quick tasks.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
    :figwidth: 75%
@@ -80,11 +80,9 @@ Messaging Apps or ChatBots are light weight programs that one can talk to carry 
 
 Get Started
 =============================================================================
-Signup and Get your FREE API Token to get started
+Signup @ https://portal.messengerx.io and Get your FREE API Token
 
-Signup @ https://portal.messengerx.io
-
-Receiving Messages
+Configuring your Chat App
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
