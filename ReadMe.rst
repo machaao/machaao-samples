@@ -22,8 +22,7 @@ echo bot - Client Android App Source Code
 Register your bot url
 ---------------------
 
-Contact us for registering your bot url and we will issue you an
-api\_token (connect@machaao.com)
+Get your FREE API Token by signing up @ https://portal.messengerx.io
 
 Setup your Android Client
 -------------------------
