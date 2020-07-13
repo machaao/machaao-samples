@@ -24,7 +24,32 @@ Get a FREE API Token
 
 Get your FREE API Token by signing up @ https://portal.messengerx.io
 
-Setup your Android Client
+Integrate your bot on your website
+--------------------
+
+**Step\_1**: Below is a sample script you need to paste into your
+website to install webchat for your Machaao bot.
+
+::
+
+  <script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"
+      id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="<botkey>" src="https://web-client-dev.machaao.com/static/js/script.js"></script>
+
+**Step\_2**: You will need to update variables above as shown below:
+
+``themecolor`` : Put the desired color in hex or rgb format which will
+be applied to the chat header background, buttons and message bubble
+background.
+
+``botname`` : The name of the bot that will appear on the chat header
+
+``avatarurl`` : The url of the image that is shown on bot launcher icon.
+
+``chathost`` : Url where the static assets for the webchat are hosted.
+
+``machaaokey`` : The API token for your bot proivded by Machaao
+
+Integrate your bot in your android app
 -------------------------
 
 Add following to your app gradle file.
@@ -94,30 +119,6 @@ Launch Your Bot / Mini App via our SDK [For Bot Developers / Partners]
       intent.putExtra("botToken", botToken);
       startActivity(intent);
 
-Web SDK Instructions
---------------------
-
-**Step\_1**: Below is a sample script you need to paste into your
-website to install webchat for your Machaao bot.
-
-::
-
-  <script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"
-      id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="<botkey>" src="https://web-client-dev.machaao.com/static/js/script.js"></script>
-
-**Step\_2**: You will need to update variables above as shown below:
-
-``themecolor`` : Put the desired color in hex or rgb format which will
-be applied to the chat header background, buttons and message bubble
-background.
-
-``botname`` : The name of the bot that will appear on the chat header
-
-``avatarurl`` : The url of the image that is shown on bot launcher icon.
-
-``chathost`` : Url where the static assets for the webchat are hosted.
-
-``machaaokey`` : The API token for your bot proivded by Machaao
 
 
 Contact us for Advanced Usage / Implementation Support / Bugs
