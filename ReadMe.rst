@@ -19,7 +19,7 @@ get you started
 The above repository contains two assets - Server side code for a simple
 echo bot - Client Android App Source Code
 
-Register your bot url
+Get a FREE API Token
 ---------------------
 
 Get your FREE API Token by signing up @ https://portal.messengerx.io
