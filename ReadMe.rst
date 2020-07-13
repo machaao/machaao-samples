@@ -94,27 +94,6 @@ Launch Your Bot / Mini App via our SDK [For Bot Developers / Partners]
       intent.putExtra("botToken", botToken);
       startActivity(intent);
 
-Add MyBots Grid or List Component / Fragment [For App / Publisher Partners]
----------------------------------------------------------------------------
-
-::
-
-    <fragment
-        android:name="com.machaao.android.sdk.fragments.MyBotListFragment"
-        android:id="@+id/botList"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <fragment
-        android:name="com.machaao.android.sdk.fragments.MyBotGridFragment"
-        android:id="@+id/botGrid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-If everything works fine you should be able to build your conversational
-app and run your bot(s) inside your own android / web app (iOS Coming
-Soon).
-
 Web SDK Instructions
 --------------------
 
