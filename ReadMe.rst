@@ -27,14 +27,15 @@ Get your FREE API Token by signing up @ https://portal.messengerx.io
 Setup your Android Client
 -------------------------
 
-Add following to your gradle file Include Machaao Maven Public
-Repository
+Add following to your app gradle file.
 
 ::
-
     maven {
-            url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
-        }
+        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
+    }
+    maven {
+        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/releases"
+    }
 
 Add Gradle Dependency
 ---------------------
@@ -43,7 +44,11 @@ Add Gradle Dependency
 
      debugImplementation('com.machaao.android:machaao-sdk:0.828-SNAPSHOT') {
             transitive = true
-        }
+     }
+
+     releaseImplementation('com.machaao.android:machaao-sdk:0.828') {
+            transitive = true
+     }
 
 Modify Manifest (Add Token)
 ---------------------------
