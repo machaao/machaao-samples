@@ -45,10 +45,6 @@ Add Gradle Dependency
             transitive = true
         }
 
-     releaseImplementation('com.machaao.android:machaao-sdk:0.828') {
-            transitive = true
-        }
-
 Modify Manifest (Add Token)
 ---------------------------
 
