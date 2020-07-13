@@ -42,11 +42,11 @@ Add Gradle Dependency
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.807-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.828-SNAPSHOT') {
             transitive = true
         }
 
-     releaseImplementation('com.machaao.android:machaao-sdk:0.807') {
+     releaseImplementation('com.machaao.android:machaao-sdk:0.828') {
             transitive = true
         }
 
