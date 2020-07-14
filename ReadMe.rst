@@ -121,6 +121,10 @@ Launch Your Bot / Mini App via our SDK [For Bot Developers / Partners]
       intent.putExtra("botToken", botToken);
       startActivity(intent);
 
+Launch Your Bot / Mini App via our SDK [For Bot Developers / Partners]
+----------------------------------------------------------------------
+
+Sample Android Chat App @ https://github.com/machaao/machaao-samples/tree/master/basic_sample_bot/client/android/sample_bot_client
 
 
 Contact us for Advanced Usage / Implementation Support / Bugs
