@@ -7,12 +7,6 @@
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-
-    <!--<uses-permission android:name="android.permission.READ_SMS"/>-->
-    <!--<uses-permission android:name="android.permission.RECEIVE_SMS"/>-->
-
-    <!-- Kiip Optional Permissions -->
 
     <application
         android:name="com.machaao.sample.generic.Application"
@@ -29,6 +23,8 @@
         <meta-data android:name="com.machaao.android.sdk.token"
             tools:replace="android:value"
             android:value="f3aee970-9545-11ea-9119-8188df620b76" />
+
+        <!-- REPLACE THIS WITH YOUR API KEY / TOKEN -->
 
         <activity android:name="com.machaao.android.sdk.activities.SingleBotActivity"
             android:logo="@mipmap/ic_launcher"

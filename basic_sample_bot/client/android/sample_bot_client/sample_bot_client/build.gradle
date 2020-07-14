@@ -85,8 +85,8 @@ android {
 
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_7
-        targetCompatibility = JavaVersion.VERSION_1_7
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     lintOptions {
@@ -94,8 +94,8 @@ android {
     }
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
 
@@ -118,7 +118,7 @@ configurations.all {
         def requested = details.requested
         if (requested.group == 'androidx') {
             if (!requested.name.startsWith("multidex")) {
-                details.useVersion '28.0.3'
+                details.useVersion '29.0.2'
             }
         }
 
