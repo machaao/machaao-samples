@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.machaao.sample.generic"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" package="com.machaao.sample.generic">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -23,19 +22,13 @@
         android:supportsRtl="true"
         tools:node="merge"
         android:theme="@style/AppTheme.Orange">
-
-
-        <!-- Adding this meta-data will download the font when application is installed from
-            Google Play Store. This way the font will be downloaded and ready when your app starts
-            for the first time. -->
+        
 
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
-        <!--<meta-data android:name="com.machaao.sdk.token" android:value="dfa79f70-e44d-11e9-bec1-25f7477dfdc0" />-->
 
         <meta-data android:name="com.machaao.android.sdk.token"
-            android:value="<!-- YOUR BOT TOKEN (contact@machaao.com) -->" />
-
-
+            tools:replace="android:value"
+            android:value="f3aee970-9545-11ea-9119-8188df620b76" />
 
         <activity android:name="com.machaao.android.sdk.activities.SingleBotActivity"
             android:logo="@mipmap/ic_launcher"
