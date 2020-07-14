@@ -32,8 +32,8 @@ android {
         applicationId "com.machaao.sample.generic"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 234
-        versionName "0.652"
+        versionCode 235
+        versionName "0.653"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -9,14 +9,14 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <application
-        android:name="com.machaao.sample.generic.Application"
+        android:name=".Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         tools:node="merge"
         android:theme="@style/AppTheme.Orange">
-        
+
         <meta-data android:name="com.machaao.android.sdk.token"
             tools:replace="android:value"
             android:value="f3aee970-9545-11ea-9119-8188df620b76" />

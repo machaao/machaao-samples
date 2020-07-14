@@ -1,88 +1,36 @@
 package com.machaao.sample.generic;
-
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.net.ConnectivityManager;
-import com.crashlytics.android.Crashlytics;
-import com.machaao.android.sdk.BaseApplication;
-import com.machaao.android.sdk.activities.SingleBotActivity;
-//import com.squareup.leakcanary.LeakCanary;
-import io.fabric.sdk.android.Fabric;
-//import okhttp3.MediaType;
+import androidx.multidex.MultiDexApplication;
+import com.machaao.android.sdk.Machaao;
 
 
-public class Application extends BaseApplication {
+public class Application extends MultiDexApplication {
 
-    private static final String TAG = "TheSampleBot";
-
-
-    public static String getVersion() {
-        return version;
-    }
-
-    public static void setVersion(String version) {
-        Application.version = version;
-    }
-
-    private static String version;
-
+    private static final String TAG = "Rasa.Sample";
     public static final String PREFERENCES = TAG + ".preferences";
     public static final String IS_SHORTCUT_CREATED = PREFERENCES + ".shortcut";
-    private static final String KEY_SYNCING = "syncing";
-
-    private String getAppVersion() {
-        PackageInfo pInfo;
-        try {
-            pInfo = this.getPackageManager().getPackageInfo(this.getPackageName(), 0);
-            return new StringBuilder("v").append(pInfo.versionName).toString();
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        return "v0.9.9";
-    }
 
     @Override
     public void onCreate() {
 
-        // IMPORTANT - Configuration - DO NOT CHANGE
 
-        super.setDev(true);
-        super.setPREFERENCES(PREFERENCES);
         super.onCreate();
-        setAllowAnonymousLogin(true);
 
-        version = getAppVersion();
-//        if (LeakCanary.isInAnalyzerProcess(this)) {
-            // This process is dedicated to LeakCanary for heap analysis.
-            // You should not init your app in this process.
-//            return;
-//        }
-
-//        LeakCanary.install(this);
-        Fabric.with(this, new Crashlytics());
-//        mConnectivityManager = (ConnectivityManager) this.getSystemService(Context.CONNECTIVITY_SERVICE);
+        Machaao.initialize(this);
 
         if(!Application.hasShortcut()){
             addShortcut();
         }
-
     }
 
     public static boolean hasShortcut() {
-        return getSharedPreferences().getBoolean(IS_SHORTCUT_CREATED, false);
-    }
-
-    public static boolean isSyncing() {
-        return getSharedPreferences().getBoolean(KEY_SYNCING, false);
+        return Machaao.getSharedPreferences().getBoolean(IS_SHORTCUT_CREATED, false) || Machaao.getSharedPreferences().getBoolean(Machaao.IS_OLD_BUILD_SHORTCUT_CREATED, false);
     }
 
     public static void createShortcut() {
-        if(getSharedPreferences() != null) {
-            SharedPreferences.Editor edit = getSharedPreferences().edit();
+        if(Machaao.getSharedPreferences() != null) {
+            SharedPreferences.Editor edit = Machaao.getSharedPreferences().edit();
             edit.putBoolean(IS_SHORTCUT_CREATED, true);
             edit.apply();
             edit.commit();
@@ -91,7 +39,7 @@ public class Application extends BaseApplication {
 
     private void addShortcut() {
         Intent shortcutIntent = new Intent(getApplicationContext(),
-                SingleBotActivity.class);
+                SplashActivity.class);
 
         shortcutIntent.setAction(Intent.ACTION_MAIN);
 
@@ -109,6 +57,15 @@ public class Application extends BaseApplication {
         getApplicationContext().sendBroadcast(addIntent);
 
         Application.createShortcut();
+    }
 
+    @Override
+    public void onTerminate() {
+
+        if(Machaao.getInstance() != null) {
+            Machaao.getInstance().shutdown();
+        }
+
+        super.onTerminate();
     }
 }

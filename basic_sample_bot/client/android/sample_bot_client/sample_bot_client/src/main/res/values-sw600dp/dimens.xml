@@ -1,8 +1,0 @@
-<resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">24sp</dimen>
-    <dimen name="activity_vertical_margin">24sp</dimen>
-
-    <!-- 64 + 48 -->
-    <dimen name="toolbar_placeholder_height">56sp</dimen>
-</resources>
