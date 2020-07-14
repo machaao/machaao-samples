@@ -55,9 +55,11 @@ Integrate your bot in your android app
 Add following to your app gradle file.
 
 ::
+
     maven {
         url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
     }
+
     maven {
         url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/releases"
     }
