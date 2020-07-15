@@ -83,9 +83,11 @@ Chat Apps aka Chat Bots are conversational programs that one can talk to carry q
 
 Get Started
 =============================================================================
+Get your FREE API Token
+---------------------
 Signup @ https://portal.messengerx.io and Get your FREE API Token
 
-Configuring your Chat App
+Configuring your Chat App Server
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
@@ -357,12 +359,120 @@ Allows you to perform search content for your chat app by query based in a pagin
 Open Source Samples
 =============================================================================
 Below are some samples which will help get you started
+https://github.com/machaao/machaao-samples
 
-
-RASA Sample
+RASA (Python Sample)
 -----------------------------------------------------------------------------
 https://github.com/machaao/rasa-sample-nlu-bot
 
+Client Integration via SDKs
+=============================================================================
+Requirements
+---------------------
+JDK 8
+Android Studio
+
+Integrate your bot on your website
+--------------------
+
+**Step\_1**: Below is a sample script you need to paste into your
+website to install webchat for your Machaao bot.
+
+::
+
+  <script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"
+      id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="<botkey>" src="https://web-client-dev.machaao.com/static/js/script.js"></script>
+
+**Step\_2**: You will need to update variables above as shown below:
+
+``themecolor`` : Put the desired color in hex or rgb format which will
+be applied to the chat header background, buttons and message bubble
+background.
+
+``botname`` : The name of the bot that will appear on the chat header
+
+``avatarurl`` : The url of the image that is shown on bot launcher icon.
+
+``chathost`` : Url where the static assets for the webchat are hosted.
+
+``machaaokey`` : The API token for your bot proivded by Machaao
+
+Integrate your bot in your Android App
+-------------------------
+
+Add following to your app gradle file.
+
+::
+
+    maven {
+        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
+    }
+
+    maven {
+        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/releases"
+    }
+
+Add Gradle Dependency
+---------------------
+
+::
+
+     debugImplementation('com.machaao.android:machaao-sdk:0.833-SNAPSHOT') {
+            transitive = true
+     }
+
+     releaseImplementation('com.machaao.android:machaao-sdk:0.833') {
+            transitive = true
+     }
+
+Modify Manifest (Add Token)
+---------------------------
+
+::
+
+     <meta-data android:name="com.machaao.android.sdk.token"
+    android:value="<!-- Replace with your bot / api token assigned by MACHAAO Inc (connect@machaao.com) -->" />
+
+Add SingleBotActivity Reference to Manifest (Bot Developers)
+------------------------------------------------------------
+
+::
+
+      <activity android:name="com.machaao.android.sdk.activities.SingleBotActivity"
+            android:logo="@mipmap/ic_launcher"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            tools:node="merge"
+            android:theme="@style/AppTheme.Orange">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+
+Intialize MACHAAO SDK
+-----------------------------
+
+::
+
+     Machaao.initialize(this);
+
+Launch Your Bot / Chat App via our SDK [For Bot Developers / Partners]
+----------------------------------------------------------------------
+
+::
+
+      Intent intent = new Intent(this, SingleBotActivity.class);
+      intent.putExtra("botToken", botToken);
+      startActivity(intent);
+
+Launch Your Bot / Chat App via our SDK [For Bot Developers / Partners]
+----------------------------------------------------------------------
+
+Sample Android Chat App @ https://github.com/machaao/machaao-samples/tree/master/basic_sample_bot/client/android/sample_bot_client
 
 
 
