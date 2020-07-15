@@ -493,8 +493,7 @@ multiple other Rest APIs dor developers looking to build deeply personalized sup
 Small Businesses / Enterprise
 =============================================================================
 * Do you have an existing facebook messenger chatbot?
-* Own your data with our SDKs
-* Make your existing chatbot / platform work inside your client android app or website within hours.
+* Make your existing chatbot / platform work inside your client android app or website within hours (iOS coming soon).
 * Conversational Bot Designer (Premium)
 
 Other Resources
