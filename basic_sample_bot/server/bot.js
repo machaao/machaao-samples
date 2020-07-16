@@ -1,6 +1,8 @@
 //
 // This is main file containing code implementing the Express server and functionality for the Express echo bot.
 //
+// inspired from messenger-chatbot-demo
+
 'use strict';
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -149,9 +151,7 @@ function getUser(messaging) {
 
 function sendGenericMessage(userID) {
   var messageData = {
-    identifier: 'BROADCAST_FB_QUICK_REPLIES',
     users: [userID],
-    source: "firebase",
     message: {
       attachment: {
         type: "template",
