@@ -469,10 +469,8 @@ Launch Your Bot / Chat App via our SDK [For Bot Developers / Partners]
       intent.putExtra("botToken", botToken);
       startActivity(intent);
 
-Launch Your Bot / Chat App via our SDK [For Bot Developers / Partners]
-----------------------------------------------------------------------
-
-Sample Android Chat App @ https://github.com/machaao/machaao-samples/tree/master/basic_sample_bot/client/android/sample_bot_client
+Sample Android Chat App
+@ https://github.com/machaao/machaao-samples/tree/master/basic_sample_bot/client/android/sample_bot_client
 
 
 
