@@ -60,6 +60,7 @@ app.post('/machaao_hook', function (req, res) {
       } else {
         try {
           // console.log("decoded body: " + JSON.stringify(decoded));
+
           let _body = decoded && decoded.sub && decoded.sub.messaging ? decoded.sub : JSON.parse(decoded && decoded.sub);
           const messagingEntries = getMessagingEntries(_body) || _body;
 
@@ -76,8 +77,6 @@ app.post('/machaao_hook', function (req, res) {
                 });
                 return;
               }
-
-              // console.log("firebase input message payload: " + JSON.stringify(messaging));
 
               var msg = messaging.message_data && messaging.message_data.text ? messaging.message_data.text : "";
               let _isMetaData = false;
@@ -126,7 +125,6 @@ function sendTextMessage(userID, messageText) {
   var messageData = {
     identifier: 'BROADCAST_FB_QUICK_REPLIES',
     users: [userID],
-    source: "firebase",
     message: {
       text: messageText
     }

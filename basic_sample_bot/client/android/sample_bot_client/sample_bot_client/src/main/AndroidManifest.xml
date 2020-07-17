@@ -19,7 +19,7 @@
 
         <meta-data android:name="com.machaao.android.sdk.token"
             tools:replace="android:value"
-            android:value="f3aee970-9545-11ea-9119-8188df620b76" />
+            android:value="e422e150-b043-11ea-ae8a-f3944938341c" />
 
         <!-- REPLACE THIS WITH YOUR API KEY / TOKEN -->
 
