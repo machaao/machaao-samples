@@ -19,7 +19,7 @@
 
         <meta-data android:name="com.machaao.android.sdk.token"
             tools:replace="android:value"
-            android:value="e422e150-b043-11ea-ae8a-f3944938341c" />
+            android:value="your_token_from_portal_messengerx_io" /> <!-- portal.messengerx.io -->
 
         <!-- REPLACE THIS WITH YOUR API KEY / TOKEN -->
 
