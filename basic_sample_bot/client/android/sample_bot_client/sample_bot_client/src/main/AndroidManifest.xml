@@ -23,7 +23,7 @@
 
         <!-- REPLACE THIS WITH YOUR API KEY / TOKEN -->
 
-        <activity android:name="com.machaao.android.sdk.activities.SingleBotActivity"
+        <activity android:name=".SplashActivity"
             android:logo="@mipmap/ic_launcher"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:screenOrientation="portrait"
@@ -33,11 +33,19 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
+        </activity>
 
-            <!-- Branch URI scheme -->
+        <activity android:name="com.machaao.android.sdk.activities.SingleBotActivity"
+            android:logo="@mipmap/ic_launcher"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            tools:node="merge"
+            android:theme="@style/AppTheme.Orange">
             <intent-filter>
-                <data android:scheme="ganglia" android:host="open" />
+                <data android:scheme="machaao" android:host="open" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
