@@ -296,7 +296,7 @@ Get all the tags for deeper personalization use cases.
 
 ::
 
-    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tag/<USER_ID>' \
+    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tags/<USER_ID>' \
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json'
 
