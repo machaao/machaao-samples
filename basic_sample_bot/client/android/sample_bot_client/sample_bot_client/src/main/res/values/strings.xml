@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict">
     <!--<string name="app_name">GangliaService</string>-->
-    <string name="default_notification_channel_id" translatable="false">ganglia_messaging_pipe</string>
+    <string name="default_notification_channel_sample_id" translatable="false">sample_messaging_pipe</string>
     <string name="enter_a_message">Type a Message &#8230;</string>
     <string name="powered_by_giphy">Powered by Giphy</string>
     <string name="default_notification_channel_name">Messages</string>

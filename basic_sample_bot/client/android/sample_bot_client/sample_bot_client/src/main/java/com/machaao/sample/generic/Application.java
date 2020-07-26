@@ -2,6 +2,9 @@ package com.machaao.sample.generic;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import androidx.multidex.MultiDexApplication;
+
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.machaao.android.sdk.Machaao;
 
 

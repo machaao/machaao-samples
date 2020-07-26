@@ -11,6 +11,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.machaao.android.sdk.Machaao;
 import com.machaao.android.sdk.activities.SingleBotActivity;
 import com.machaao.android.sdk.helpers.LogUtils;

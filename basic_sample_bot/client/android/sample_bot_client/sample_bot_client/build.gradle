@@ -32,8 +32,8 @@ android {
         applicationId "com.machaao.sample.generic"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 235
-        versionName "0.653"
+        versionCode 243
+        versionName "0.659"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -49,8 +49,6 @@ android {
             resValue "string", "app_name", "Sample.Bot (Dev)"
             resValue "string", "facebook_app_id", "649919521823201"
             resValue "string", "fb_login_protocol_scheme", "fb[649919521823201]"
-
-
         }
 
         release {

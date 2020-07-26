@@ -157,7 +157,7 @@ Sending On-Demand Responses
 Send a outgoing message in response to user's input can be done by the usage of our On Demand Messaging APIs as demonstrated below
 
 
-Sending a Text Message Response
+Sending a Text Message Response with Quick Replies
 -----------------------------------------------------------------------------
 Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
 
@@ -180,7 +180,7 @@ Below is an example CURL request to send a message / response to a particular us
     }'
 
 
-Sending a Media Attachment
+Sending a Media Attachment with Quick Replies
 -----------------------------------------------------------------------------
 Below is an example CURL request to send a message attachment to a particular user id.
 
@@ -204,6 +204,49 @@ Below is an example CURL request to send a message attachment to a particular us
                       "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
                    }
                 ]
+             }
+          },
+          "quick_replies": [{
+            "content_type": "text",
+            "title": "Hi",
+            "payload": "hi"
+          }]
+       }
+    }'
+
+Sending a Media Attachment with Buttons & Quick Replies
+-----------------------------------------------------------------------------
+Below is an example CURL request to send a message attachment to a particular user id with buttons.
+
+::
+
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    --header 'api_token: API_TOKEN' \
+    --header 'Content-Type: application/json' \
+    --header 'Content-Type: text/plain' \
+    --data-raw '{
+      "users":["<!-- UNIQUE_USER_ID -->"],
+      "message":{
+          "attachment":{
+             "type":"template",
+             "payload":{
+                "template_type":"generic",
+                "elements":[
+                   {
+                      "title": "Test #786 - Duffle Bag + 200 Machaao Credits",
+                      "subtitle":"Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.",
+                      "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                   }
+                ],
+                "buttons": [{
+                    "title": "Hi",
+                    "type": "postback",
+                    "payload": "hi"
+                }, {
+                    "title": "Source",
+                    "type": "web_url",
+                    "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                }]
              }
           },
           "quick_replies": [{
