@@ -2,7 +2,7 @@ What is MessengerX.io?
 =============================================================================
 MessengerX.io is a consumer marketplace for everyday chat apps.
 
-.. figure:: _static/images/my_bots.jpg
+.. figure:: _static/images/my_bots.jpeg
    :align: center
    :figwidth: 75%
    :height: 375px
