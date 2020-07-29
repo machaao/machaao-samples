@@ -4,7 +4,7 @@ MessengerX.io is a consumer marketplace for everyday chat apps.
 
 .. figure:: _static/images/my_bots.jpeg
    :align: center
-   :figwidth: 75%
+   :figwidth: 100%
    :height: 375px
    :width: 225px
    :alt: MessengerX.io - Everyday Chat Apps for You
