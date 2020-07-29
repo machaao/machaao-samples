@@ -85,7 +85,35 @@ Get Started
 =============================================================================
 Get your FREE API Token
 ---------------------
-Signup @ https://portal.messengerx.io and Get your FREE API Token
+Signup & Login @ https://portal.messengerx.io
+
+
+.. figure:: _static/images/mxio_login.png
+   :width: 1429px
+   :height: 300px
+   :align: center
+   :alt: MessengerX.io - Login
+
+
+Click on Add New App
+
+.. figure:: _static/images/mxio_home.png
+   :width: 1429px
+   :height: 300px
+   :align: center
+   :alt: MessengerX.io - Home
+
+
+Fill out the details (You can place Webhook and Image Url as None till deployment of chatbot). 
+   
+.. figure:: _static/images/mxio_create.png
+   :width: 1429px
+   :height: 300px
+   :align: center
+   :alt: MessengerX.io - Create App
+
+
+Read the documentation.
 
 Configuring your Chat App Server
 =============================================================================
