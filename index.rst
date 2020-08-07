@@ -370,7 +370,7 @@ Get all the tags for deeper personalization use cases.
     --header 'Content-Type: application/json'
 
 
-Sending Announcements (Subscription Messaging)
+Announcements (Subscription Messaging)
 =============================================================================
 Sending a broadcasts or an announcements in order to re-engage your bot user.
 
