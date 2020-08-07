@@ -370,13 +370,13 @@ Get all the tags for deeper personalization use cases.
     --header 'Content-Type: application/json'
 
 
-Sending Subscription Messages
+Sending Announcements (Subscription Messaging)
 =============================================================================
 Sending a broadcasts or an announcements in order to re-engage your bot user.
 
 Sample CURL Command
 -----------------------------------------------------------------------------
-Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
+Below is an example CURL request to send an announcement to a particular tag or list of tags using our Announcement APIs.
 
 ::
 
