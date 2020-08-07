@@ -372,7 +372,7 @@ Get all the tags for deeper personalization use cases.
 
 Announcements (Subscription Messaging)
 =============================================================================
-Sending a broadcasts or an announcements in order to re-engage your bot user.
+Sending announcements in order to re-engage your bot user (rate limited to a max of 1 per hour per user)
 
 Sample CURL Command
 -----------------------------------------------------------------------------
