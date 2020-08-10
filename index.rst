@@ -83,8 +83,9 @@ Chat Apps aka Chat Bots are conversational programs that one can talk to carry q
 
 Get Started
 =============================================================================
+
 Signup via our Dev Portal
----------------------
+------------------------------------------
 Signup and Get a FREE API Token
 @ https://portal.messengerx.io
 
@@ -97,7 +98,7 @@ Signup and Get a FREE API Token
 
 
 Click on Add New App
-
+---------------------
 .. figure:: _static/images/mxio_home.png
    :width: 1429px
    :height: 300px
@@ -105,13 +106,23 @@ Click on Add New App
    :alt: MessengerX.io - Home
 
 
-Fill out the details (You can place Webhook and Image Url as None till deployment of your Chat App).
-   
+Fill out the details
+---------------------
+You can place Webhook and Image Url as None till deployment of your Chat App to get started.
+
 .. figure:: _static/images/mxio_create.png
    :width: 1429px
    :height: 300px
    :align: center
    :alt: MessengerX.io - Create App
+
+YouTube Tutorial
+---------------------
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=nIp7QRNci2U" frameborder="0" allowfullscreen></iframe>
+
+
 
 Configuring your Chat App Server
 =============================================================================
