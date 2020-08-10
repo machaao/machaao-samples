@@ -120,8 +120,7 @@ YouTube Tutorial
 ---------------------
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=nIp7QRNci2U" frameborder="0" allowfullscreen></iframe>
-
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nIp7QRNci2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Configuring your Chat App Server
