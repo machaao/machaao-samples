@@ -329,9 +329,11 @@ The personalization and engagement api is the core base to build sophisticated r
 The process starts with tagging a user, Tagging a user allows you to open up
 multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
 
+This opens up your chat bot to support variety of deeply personalized use cases without a need for a huge dev ops team.
+
 Tag a User
 -----------------------------------------------------------------------------
-Annotate or Tag a user for deeper personalization.
+Annotate or Tag a user with values for deeper personalization.
 
 ::
 
@@ -339,9 +341,10 @@ Annotate or Tag a user for deeper personalization.
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json' \
     --data-raw '{
-      "tag": "india",
+      "tag": "preferred_languages",
       "status": 1,
-      "displayName": "India"
+      "values": ["en", "fr"],
+      "displayName": "Languages"
     }'
 
 Un-tag a User
@@ -354,9 +357,8 @@ Un-tag a user for deeper personalization.
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json' \
     --data-raw '{
-      "tag": "india",
-      "status": 0,
-      "displayName": "India"
+      "tag": "preferred_languages",
+      "status": 0
     }'
 
 Get all the Active Tags for a Particular User in Context
