@@ -70,7 +70,8 @@ Learn more @ https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-m
 
 What are Chatbots?
 =============================================================================
-Chat Apps aka Chat Bots are conversational programs that one can talk to carry quick tasks.
+Chat Apps also called as Chat Bots are functional conversational programs
+that one can chat with to carry on a series of complicated tasks in a quick fashion.
 
 .. figure:: _static/images/ganesha_android_screenshot.png
    :figwidth: 75%
