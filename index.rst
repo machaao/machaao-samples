@@ -116,7 +116,7 @@ You can place Webhook and Image Url as None till deployment of your Chat App to 
    :align: center
    :alt: MessengerX.io - Create App
 
-RASA Template Tutorial (YouTube Video)
+RASA + MessengerX.io Chat Bot Tutorial (YouTube Video)
 ---------------------
 .. raw:: html
 
