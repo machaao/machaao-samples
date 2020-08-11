@@ -64,10 +64,6 @@ The following set of events sequence should take place when an incoming message 
 
 The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chat apps.
 
-In fact, you earn 💰 per incoming message your bots process!
-
-Learn more @ https://www.linkedin.com/pulse/build-chatbot-starting-earning-per-message-harshal-dhir
-
 What are Chatbots?
 =============================================================================
 Chat Apps also called as Chat Bots are functional conversational programs
