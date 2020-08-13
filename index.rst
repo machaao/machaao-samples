@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a consumer marketplace for everyday chat apps.
+MessengerX.io is a consumer marketplace for everyday chatbots.
 
 .. figure:: _static/images/my_bots.jpeg
    :align: center
@@ -16,7 +16,7 @@ looking to build and monetize deeply personalized chat experiences.
 
 The Problem
 =============================================================================
-The issue of customer acquisition has been plaguing the chat apps industry for sometime now.
+The issue of customer acquisition has been plaguing the chatbots industry for sometime now.
 
 Facebook's Messenger Platform, so far has been the only viable option available
 to truly get any kind of “organic” traction on your consumer facing bot.
@@ -28,7 +28,7 @@ as well as the removal of the "Discover" Feature.
 Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the "phone number".
 
 Such marketing spend numbers are generally not in the reach of independent developers or even small businesses
-who are looking to build deeply personalized chat apps.
+who are looking to build deeply personalized chatbots.
 
 Why MessengerX.io?
 =============================================================================
@@ -36,12 +36,12 @@ Why MessengerX.io?
 With our unique learnings in the conversational space from processing over 2.5B+ messages
 from or to end users.
 
-We would like to claim that we do know a thing or two about making good chat apps :)
+We would like to claim that we do know a thing or two about making good chatbots :)
 
-We also see an evidential gap between good messaging or chat apps and end users
+We also see an evidential gap between good chatbots and end users
 due to the operating nature of current messaging eco-systems.
 
-We aim to bridge this gap between "great" chat apps and end users!
+We aim to bridge this gap between "great" chatbots and end users!
 
 How it Works?
 =============================================================================
@@ -62,7 +62,7 @@ The following set of events sequence should take place when an incoming message 
 
 * Using the Send Message API, the mini app or the chat bot can then respond to the person directly on the Partner App via our Platform APIs
 
-The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chat apps.
+The MessengerX Platform is FREE for developers looking to build highly engaging consumer based chatbots.
 
 What are Chatbots?
 =============================================================================
@@ -616,7 +616,7 @@ Sample Android Chat App
 Bonus for Developers
 =============================================================================
 In addition to the massive savings on marketing and infrastructure costs, the platform also offers
-multiple other Rest APIs dor developers looking to build deeply personalized super chat apps:
+multiple other Rest APIs dor developers looking to build deeply personalized chatbots:
 
 * Rich Messaging Support via On Demand Messaging API
 * Deep Personalization via Tagging API
