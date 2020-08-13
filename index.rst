@@ -281,55 +281,16 @@ Below is an example CURL request to send a message attachment to a particular us
                    {
                       "title": "Test #786 - Duffle Bag + 200 Machaao Credits",
                       "subtitle":"Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.",
-                      "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
-                   }
-                ],
-                "buttons": [{
-                    "title": "Hi",
-                    "type": "postback",
-                    "payload": "hi"
-                }, {
-                    "title": "Source",
-                    "type": "web_url",
-                    "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
-                }]
-             }
-          },
-          "quick_replies": [{
-            "content_type": "text",
-            "title": "Hi",
-            "payload": "hi"
-          }]
-       }
-    }'
-
-Sending a List of Media Attachment(s) aka Carousel
------------------------------------------------------------------------------
-Below is an example CURL request to send a list of attachments / media elements to a particular user id.
-
-::
-
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
-    --header 'api_token: API_TOKEN' \
-    --header 'Content-Type: application/json' \
-    --header 'Content-Type: text/plain' \
-    --data-raw '{
-      "users":["<!-- UNIQUE_USER_ID -->"],
-      "message":{
-          "attachment":{
-             "type":"template",
-             "payload":{
-                "template_type":"generic",
-                "elements":[
-                   {
-                      "title": "Test #786 - Duffle Bag + 200 Machaao Credits",
-                      "subtitle":"Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.",
-                      "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
-                   },
-                   {
-                      "title": "Test #787 - Duffle Bag + 200 Machaao Credits",
-                      "subtitle":"Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.",
-                      "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                      "image_url":"https://provogue.s3.amazonaws.com/provogue-duffle1.jpg",
+                      "buttons": [{
+                        "title": "Hi",
+                        "type": "postback",
+                        "payload": "hi"
+                       }, {
+                        "title": "Source",
+                        "type": "web_url",
+                        "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                       }]
                    }
                 ]
              }
