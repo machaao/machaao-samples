@@ -225,6 +225,36 @@ Below is an example CURL request to send a message / response to a particular us
        }
     }'
 
+Sending a Text Message Response with Buttons and Quick Response
+-----------------------------------------------------------------------------
+Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
+
+::
+
+    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    --header 'api_token: API_TOKEN' \
+    --header 'Content-Type: application/json' \
+    --header 'Content-Type: text/plain' \
+    --data-raw '{
+      "users":["<!--- UNIQUE_USER_ID -->"],
+      "message":{
+        "text": "I am a good bot",
+        "buttons": [{
+            "title": "Hi",
+            "type": "postback",
+            "payload": "hi"
+        }, {
+            "title": "Source",
+            "type": "web_url",
+            "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+         }],
+          "quick_replies": [{
+            "content_type": "text",
+            "title": "Hi",
+            "payload": "hi"
+          }]
+       }
+    }'
 
 Sending a Media Attachment with Quick Replies
 -----------------------------------------------------------------------------
