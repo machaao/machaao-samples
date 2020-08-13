@@ -113,27 +113,7 @@ You can place Webhook and Image Url as None till deployment of your Chat App to 
    :align: center
    :alt: MessengerX.io - Create App
 
-RASA + MessengerX.io Chat Bot Tutorial (YouTube Video)
----------------------
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/nIp7QRNci2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-This is a beginner’s guide on how to build a python & RASA chatbot from scratch.
-
-The video helps you build your first sample bot using RASA's open-source NLU template and lets you train your bot by writing logic in python.
-
-Chatbot Showcase
------------------------------------------------------------------------------
-MedBot - Your Pocket Medical Guide
-
-Built using Python + RASA using MessengerX API
-
-Check out https://www.messengerx.io/medbot for a web demo
-
-
-Configuring your Chat App Server
+Setup your Chatbot Server
 =============================================================================
 Understanding Webhooks
 -----------------------------------------------------------------------------
@@ -627,15 +607,37 @@ multiple other Rest APIs dor developers looking to build deeply personalized cha
 * Guaranteed Message Processing (Subjected to Approval)
 * Admin Dashboard (Premium)
 
+
+Resources / Tutorials
+=============================================================================
+RASA + MessengerX.io Chat Bot Tutorial (YouTube Video)
+---------------------
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nIp7QRNci2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+This is a beginner’s guide on how to build a python & RASA chatbot from scratch.
+
+The video helps you build your first sample bot using RASA's open-source NLU template and lets you train your bot by writing logic in python.
+
+Chatbot Showcase
+-----------------------------------------------------------------------------
+MedBot - Your Pocket Medical Guide
+
+Built using Python + RASA using MessengerX API
+
+Check out https://www.messengerx.io/medbot for a web demo
+
+Other Resources
+=============================================================================
+Partner Deck: https://docsend.com/view/jxdbrcf
+
 Small Businesses / Enterprise
 =============================================================================
 * Do you have an existing facebook messenger chatbot?
 * Make your existing chatbot / platform work inside your client android app or website within hours (iOS coming soon).
 * Conversational Bot Designer (Premium)
-
-Other Resources
-=============================================================================
-Partner Deck: https://docsend.com/view/jxdbrcf
 
 Join our Gitter Community
 =============================================================================
