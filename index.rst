@@ -172,7 +172,7 @@ Let's quickly go through the sample representation of the decrypted incoming mes
             "sender":"dWnjre9rTr65ZeiOmrY1oU",
             "silent":false,
             "client":"messenger.---.debug",
-            "version":"0.814"
+            "version":"0.838"
          }
       ]
    }
@@ -192,7 +192,6 @@ Below is an example CURL request to send a message / response to a particular us
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
-    --header 'Content-Type: text/plain' \
     --data-raw '{
       "users":["<!--- UNIQUE_USER_ID -->"],
       "message":{
@@ -214,7 +213,6 @@ Below is an example CURL request to send a message / response to a particular us
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
-    --header 'Content-Type: text/plain' \
     --data-raw '{
       "users":["<!--- UNIQUE_USER_ID -->"],
       "message":{
@@ -251,7 +249,6 @@ Below is an example CURL request to send a message attachment to a particular us
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
-    --header 'Content-Type: text/plain' \
     --data-raw '{
       "users":["<!-- UNIQUE_USER_ID -->"],
       "message":{
@@ -285,7 +282,6 @@ Below is an example CURL request to send a message attachment to a particular us
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
-    --header 'Content-Type: text/plain' \
     --data-raw '{
       "users":["<!-- UNIQUE_USER_ID -->"],
       "message":{
@@ -328,7 +324,6 @@ Below is an example CURL request to send a message attachment to a particular us
     curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
-    --header 'Content-Type: text/plain' \
     --data-raw '{
       "users":["<!-- UNIQUE_USER_ID -->"],
       "message":{
