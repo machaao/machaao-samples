@@ -204,7 +204,7 @@ Below is an example CURL request to send a message / response to a particular us
        }
     }'
 
-Sending a Text Message with Buttons and Quick Response
+Sending a Text Message with Buttons and Quick Responses
 -----------------------------------------------------------------------------
 Below is an example CURL request to send a message / response to a particular user id using our Core Messaging APIs.
 
