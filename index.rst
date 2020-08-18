@@ -218,16 +218,22 @@ Below is an example CURL request to send a message / response to a particular us
     --data-raw '{
       "users":["<!--- UNIQUE_USER_ID -->"],
       "message":{
-        "text": "I am a good bot",
-        "buttons": [{
-            "title": "Hi",
-            "type": "postback",
-            "payload": "hi"
-        }, {
-            "title": "Source",
-            "type": "web_url",
-            "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
-         }],
+          "attachment":{
+             "type":"template",
+             "payload":{
+                "template_type": "button",
+                "text": "Hi, I am a good bot...!",
+                "buttons": [{
+                    "title": "Hi",
+                    "type": "postback",
+                    "payload": "hi"
+                }, {
+                    "title": "Source",
+                    "type": "web_url",
+                    "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                 }]
+             }
+          },
           "quick_replies": [{
             "content_type": "text",
             "title": "Hi",
