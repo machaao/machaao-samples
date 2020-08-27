@@ -642,8 +642,7 @@ Small Businesses / Enterprise
 
 Join our Gitter Community
 =============================================================================
-Coming Soon
-
+https://gitter.im/messengerx-io/community
 
 .. Indices and tables
 .. ==================
