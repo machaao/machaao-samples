@@ -14,22 +14,6 @@ MessengerX.io is a consumer marketplace for everyday chatbots.
 A joint venture between AppyHigh and MACHAAO with an aim to aid developers
 looking to build and monetize deeply personalized chat experiences.
 
-The Problem
-=============================================================================
-The issue of customer acquisition has been plaguing the chatbots industry for sometime now.
-
-Facebook's Messenger Platform, so far has been the only viable option available
-to truly get any kind of “organic” traction on your consumer facing bot.
-
-But that being said, the reach and the engagement of your chat app would be severely impacted
-by the introduction of some core changes in Facebook Messenger Platform Policy
-as well as the removal of the "Discover" Feature.
-
-Even, if you were to look to WhatsApp as an alternative, there is a marketing spend associated with promoting the "phone number".
-
-Such marketing spend numbers are generally not in the reach of independent developers or even small businesses
-who are looking to build deeply personalized chatbots.
-
 Why MessengerX.io?
 =============================================================================
 
@@ -38,8 +22,7 @@ from or to end users.
 
 We would like to claim that we do know a thing or two about making good chatbots :)
 
-We also see an evidential gap between good chatbots and end users
-due to the operating nature of current messaging eco-systems.
+We also see an evidential gap between chatbots and end users due to the operating nature of current messaging eco-systems.
 
 We aim to bridge this gap between "great" chatbots and end users!
 
