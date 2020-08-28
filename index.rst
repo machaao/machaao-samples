@@ -1,6 +1,6 @@
 What is MessengerX.io?
 =============================================================================
-MessengerX.io is a consumer marketplace for everyday chatbots.
+MessengerX.io is a developer marketplace for everyday chat bots.
 
 .. figure:: _static/images/my_bots.jpeg
    :align: center
