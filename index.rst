@@ -479,12 +479,20 @@ Integrate your bot on your website
 --------------------
 
 **Step\_1**: Below is a sample script you need to paste into your
-website to install webchat for your Machaao bot.
+website to install webchat for your chatbot.
 
 ::
 
-  <script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"
-      id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="<botkey>" src="https://web-client-dev.machaao.com/static/js/script.js"></script>
+    <script
+            id="webchat"
+            src="https://dev.messengerx.io/sdk/js/widget.js"
+            type="text/javascript"
+            themecolor="#2196f3"
+            chathost="https://dev.messengerx.io"
+            botname="<!-- your bot name -->"
+            machaaokey="<!-- your api token -->"
+            avatarurl="<!-- your bot logo url -->"
+        ></script>
 
 **Step\_2**: You will need to update variables above as shown below:
 

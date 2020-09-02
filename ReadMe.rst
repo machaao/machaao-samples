@@ -12,6 +12,7 @@ Latest Android SDK tools
 Latest Android platform tools
 Android SDK 21 or newer
 AndroidX
+Basic Server Side Programming (Python / NodeJS)
 
 Overview
 ---------------------
@@ -32,12 +33,20 @@ Integrate your bot on your website
 --------------------
 
 **Step\_1**: Below is a sample script you need to paste into your
-website to install webchat for your Machaao bot.
+website to install webchat for your chatbot.
 
 ::
 
-  <script themecolor="#2b2bab" botname="Ganglia" avatarurl="chaticon.png" type="text/javascript"
-      id="webchat" chathost="https://web-client-dev.machaao.com" machaaokey="<botkey>" src="https://web-client-dev.machaao.com/static/js/script.js"></script>
+    <script
+            id="webchat"
+            src="https://dev.messengerx.io/sdk/js/widget.js"
+            type="text/javascript"
+            themecolor="#2196f3"
+            chathost="https://dev.messengerx.io"
+            botname="<!-- your bot name -->"
+            machaaokey="<!-- your api token -->"
+            avatarurl="<!-- your bot logo url -->"
+        ></script>
 
 **Step\_2**: You will need to update variables above as shown below:
 
@@ -64,22 +73,15 @@ Add following to your app gradle file.
         url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
     }
 
-    maven {
-        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/releases"
-    }
-
 Add Gradle Dependency
 ---------------------
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.833-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.871-SNAPSHOT') {
             transitive = true
      }
 
-     releaseImplementation('com.machaao.android:machaao-sdk:0.833') {
-            transitive = true
-     }
 
 Modify Manifest (Add Token)
 ---------------------------
