@@ -485,7 +485,7 @@ website to install webchat for your chatbot.
 
     <script
             id="webchat"
-            src="https://dev.messengerx.io/sdk/js/widget.js"
+            src="https://dev.messengerx.io/bot/js/widget.js"
             type="text/javascript"
             themecolor="#2196f3"
             chathost="https://dev.messengerx.io"

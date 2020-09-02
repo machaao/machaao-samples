@@ -16,9 +16,7 @@ repositories {
     maven {
         url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
     }
-    maven {
-        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/releases"
-    }
+
     mavenLocal()
     jcenter()
 }
@@ -102,11 +100,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    debugImplementation('com.machaao.android:machaao-sdk:0.833-SNAPSHOT') {
-        transitive = true
-    }
-
-    releaseImplementation('com.machaao.android:machaao-sdk:0.833') {
+    debugImplementation('com.machaao.android:machaao-sdk:0.871-SNAPSHOT') {
         transitive = true
     }
 }
