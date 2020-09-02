@@ -511,22 +511,19 @@ Add following to your app gradle file.
         url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
     }
 
-    maven {
-        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/releases"
-    }
 
 Add Gradle Dependency
 ---------------------
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.833-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.871-SNAPSHOT') {
             transitive = true
      }
 
-     releaseImplementation('com.machaao.android:machaao-sdk:0.833') {
+     releaseImplementation('com.machaao.android:machaao-sdk:0.871') {
             transitive = true
-     }
+     } // [contact support@messengerx.io for access]
 
 Modify Manifest (Add Token)
 ---------------------------
