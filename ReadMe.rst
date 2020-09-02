@@ -1,5 +1,9 @@
 Get Started
-=============================================================================
+=============================================================================  
+
+.. image:: https://badges.gitter.im/messengerx-io/community.svg
+   :target: https://gitter.im/messengerx-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+   :alt: Gitter
 
 Requirements
 ---------------------
