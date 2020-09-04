@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     public void onResume() {
 
-        if (!Machaao.isIntialized()) {
+        if (!Machaao.isInitialized()) {
             LogUtils.d(TAG, "waiting for initialization of SDK...");
             LocalBroadcastManager.getInstance(this).registerReceiver(mInitialized,
                     new IntentFilter("machaao.sdk.initialized"));
