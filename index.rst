@@ -525,11 +525,11 @@ Add Gradle Dependency
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.871-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.874-SNAPSHOT') {
             transitive = true
      }
 
-     releaseImplementation('com.machaao.android:machaao-sdk:0.871') {
+     releaseImplementation('com.machaao.android:machaao-sdk:0.874') {
             transitive = true
      } // [contact support@messengerx.io for access]
 
