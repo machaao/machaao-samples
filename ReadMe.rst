@@ -78,7 +78,7 @@ Add Gradle Dependency
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.874-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:0.965-SNAPSHOT') {
             transitive = true
      }
 
