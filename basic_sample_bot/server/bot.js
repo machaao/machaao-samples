@@ -70,13 +70,14 @@ app.post('/machaao_hook', function (req, res) {
               let version = messaging.version && messaging.version.replace("v", "");
               console.log("client: v" + version);
 
-              if(!messaging.client || (version && eval(version) < 0.585)) {
-                const _upgradeClient = "Sorry, you are using an older or an invalid version of the client.\nPlease update from Play Store....\nDownload -> https://play.google.com/store/apps/details?id=com.machaao.ganglia.cricket.release"; //findAndReplace(config.error_responses.maintenance_mode, "{name}", _sName);
-                res.status(500).send({
-                  message: _upgradeClient
-                });
-                return;
-              }
+            // deprecated code
+//               if(!messaging.client || (version && eval(version) < 0.585)) {
+//                 const _upgradeClient = "Sorry, you are using an older or an invalid version of the client.\nPlease update from Play Store....\nDownload -> https://play.google.com/store/apps/details?id=com.machaao.ganglia.cricket.release"; //findAndReplace(config.error_responses.maintenance_mode, "{name}", _sName);
+//                 res.status(500).send({
+//                   message: _upgradeClient
+//                 });
+//                 return;
+//               }
 
               var msg = messaging.message_data && messaging.message_data.text ? messaging.message_data.text : "";
               let _isMetaData = false;
