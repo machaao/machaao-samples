@@ -620,7 +620,7 @@ Check out https://www.messengerx.io/medbot for a web demo
 
 Other Resources
 =============================================================================
-Partner Deck: https://docsend.com/view/jxdbrcf
+Partner Deck: https://docsend.com/view/dma4ey7nfnr6jess
 
 Small Businesses / Enterprise
 =============================================================================
