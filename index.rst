@@ -612,11 +612,12 @@ The video helps you build your first sample bot using RASA's open-source NLU tem
 
 Chatbot Showcase
 -----------------------------------------------------------------------------
-MedBot - Your Pocket Medical Guide
+Jeanie - Your AI Girlfriend
 
-Built using Python + RASA using MessengerX API
+Built using GPT-J + MACHAAO Platform
+https://github.com/machaao/gpt-j-chatbot
 
-Check out https://www.messengerx.io/medbot for a web demo
+Check out https://www.messengerx.io/jeanie for a web demo
 
 Other Resources
 =============================================================================
