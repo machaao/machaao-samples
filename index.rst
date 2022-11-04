@@ -11,8 +11,7 @@ MessengerX.io is a developer marketplace for everyday chat apps also known as ch
 
    MessengerX.io - Everyday Chat Apps for You
 
-A joint venture between AppyHigh and MACHAAO with an aim to aid developers
-looking to build and monetize deeply personalized chat experiences.
+Our aim to aid developers looking to build and monetize deeply personalized chat experiences.
 
 Why MessengerX.io?
 =============================================================================
@@ -615,6 +614,7 @@ Chatbot Showcase
 Jeanie - Your AI Girlfriend
 
 Built using GPT-J + MACHAAO Platform
+
 https://github.com/machaao/gpt-j-chatbot
 
 Check out https://www.messengerx.io/jeanie for a web demo
