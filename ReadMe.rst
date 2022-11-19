@@ -70,7 +70,7 @@ Add following to your app gradle file.
 ::
 
     maven {
-        url "https://machaao-android-builds.s3.amazonaws.com/sdk/android/snapshots"
+        url "https://cdn.machaao.com/sdk/android/snapshots"
     }
 
 Add Gradle Dependency
@@ -78,7 +78,7 @@ Add Gradle Dependency
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:0.965-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:1.831-SNAPSHOT') {
             transitive = true
      }
 
