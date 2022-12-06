@@ -171,7 +171,7 @@ Below is an example CURL request to send a message / response to a particular us
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -192,7 +192,7 @@ Below is an example CURL request to send a message / response to a particular us
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -228,7 +228,7 @@ Below is an example CURL request to send a message attachment to a particular us
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -261,7 +261,7 @@ Below is an example CURL request to send a message attachment to a particular us
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -303,7 +303,7 @@ Below is an example CURL request to send a message attachment to a particular us
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/send' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/messages/send' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -368,7 +368,7 @@ Annotate or Tag a user with values for deeper personalization.
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/users/tag/<USER_ID>' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/users/tag/<USER_ID>' \
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -384,7 +384,7 @@ Un-tag a user for deeper personalization.
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/users/tag/<USER_ID>' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/users/tag/<USER_ID>' \
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -398,7 +398,7 @@ Get all the tags for deeper personalization use cases.
 
 ::
 
-    curl --location --request GET 'https://ganglia-dev.machaao.com/v1/users/tags/<USER_ID>' \
+    curl --location --request GET 'https://ganglia.machaao.com/v1/users/tags/<USER_ID>' \
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json'
 
@@ -413,7 +413,7 @@ Below is an example CURL request to send an announcement to a particular tag or 
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/messages/announce' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/messages/announce' \
     --header 'api_token: API_TOKEN' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -439,7 +439,7 @@ Auto-Annotate and insert content for your chat app.
 
 ::
 
-    curl --location --request POST 'https://ganglia-dev.machaao.com/v1/content' \
+    curl --location --request POST 'https://ganglia.machaao.com/v1/content' \
     --header 'api_token: <API_TOKEN>' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -453,7 +453,7 @@ Allows you to perform search content for your chat app by query based in a pagin
 
 ::
 
-   curl --location --request GET 'https://ganglia-dev.machaao.com/v1/content/search?q=ipl&limit=10&skip=0' \
+   curl --location --request GET 'https://ganglia.machaao.com/v1/content/search?q=ipl&limit=10&skip=0' \
    --header 'api_token: <API_TOKEN>' \
    --header 'Content-Type: application/json'
 
