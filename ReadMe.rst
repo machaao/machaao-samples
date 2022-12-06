@@ -39,10 +39,10 @@ website to install webchat for your chatbot.
 
     <script
             id="webchat"
-            src="https://dev.messengerx.io/bot/js/widget.js"
+            src="https://messengerx.io/bot/js/widget.js"
             type="text/javascript"
             themecolor="#2196f3"
-            chathost="https://dev.messengerx.io"
+            chathost="https://messengerx.io"
             botname="<!-- your bot name -->"
             machaaokey="<!-- your api token -->"
             avatarurl="<!-- your bot logo url -->"
@@ -78,7 +78,7 @@ Add Gradle Dependency
 
 ::
 
-     debugImplementation('com.machaao.android:machaao-sdk:1.831-SNAPSHOT') {
+     debugImplementation('com.machaao.android:machaao-sdk:1.831') {
             transitive = true
      }
 
