@@ -429,35 +429,6 @@ Below is an example CURL request to send an announcement to a particular tag or 
     }'
 
 
-Headless CMS
-=============================================================================
-Tagging a user allows you to open up multiple re-targeting or re-engagement use cases such as sending daily news, personalized responses, etc.
-
-Insert new content
------------------------------------------------------------------------------
-Auto-Annotate and insert content for your chat app.
-
-::
-
-    curl --location --request POST 'https://ganglia.machaao.com/v1/content' \
-    --header 'api_token: <API_TOKEN>' \
-    --header 'Content-Type: application/json' \
-    --data-raw '{
-        "url": "https://www.youtube.com/watch?v=5UmM-tclggg",
-        "tags": ["india", "pakistan", "bangladesh"]
-    }'
-
-Search API
------------------------------------------------------------------------------
-Allows you to perform search content for your chat app by query based in a paginated way.
-
-::
-
-   curl --location --request GET 'https://ganglia.machaao.com/v1/content/search?q=ipl&limit=10&skip=0' \
-   --header 'api_token: <API_TOKEN>' \
-   --header 'Content-Type: application/json'
-
-
 Open Source Samples
 =============================================================================
 Below are some samples which will help get you started
