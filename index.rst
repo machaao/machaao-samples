@@ -590,10 +590,6 @@ https://github.com/machaao/gpt-j-chatbot
 
 Check out https://www.messengerx.io/jeanie for a web demo
 
-Other Resources
-=============================================================================
-Partner Deck: https://docsend.com/view/dma4ey7nfnr6jess
-
 Small Businesses / Enterprise
 =============================================================================
 * Do you have an existing facebook messenger chatbot?
