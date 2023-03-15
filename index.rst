@@ -452,20 +452,6 @@ multiple other Rest APIs dor developers looking to build deeply personalized cha
 * Guaranteed Message Processing (Subjected to Approval)
 * Admin Dashboard (Premium)
 
-
-Resources / Tutorials
-=============================================================================
-RASA + MessengerX.io Chat Bot Tutorial (YouTube Video)
----------------------
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/nIp7QRNci2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-This is a beginner’s guide on how to build a python & RASA chatbot from scratch.
-
-The video helps you build your first sample bot using RASA's open-source NLU template and lets you train your bot by writing logic in python.
-
 Chatbot Showcase
 -----------------------------------------------------------------------------
 Jeanie - Your AI Girlfriend
@@ -479,16 +465,6 @@ Al-x by OpenExo
 https://chat.openexo.com
 
 Check out https://www.messengerx.io/jeanie for a web demo
-
-Small Businesses / Enterprise
-=============================================================================
-* Do you have an existing facebook messenger chatbot?
-* Make your existing chatbot / platform work inside your client android app or website within hours (iOS coming soon).
-* Conversational Bot Designer (Premium)
-
-Join our Gitter Community
-=============================================================================
-https://gitter.im/messengerx-io/community
 
 .. Indices and tables
 .. ==================
